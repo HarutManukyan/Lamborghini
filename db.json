@@ -1,0 +1,1466 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+
+  "accessories": [
+    {
+      "name": "urus",
+      "accessoryCarousel": [
+        {
+          "id": 1,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/urus/acc_urus_og.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/01_25_winter_accessories/winter_accessories_cover_m.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/urus/hero/acc_urus_hero_03_m.jpg"
+        },
+        {
+          "id": 4,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/urus/hero/acc_urus_hero_04.jpg"
+        }
+      ],
+      "brochure": "https://www.auto100.ee/files/page_files/2022-accessori-urus-eng-dkv0uTmUNb.pdf",
+      "section1": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/urus/2022/modal/urus_acc_1_01.jpg",
+        "type": "usability",
+        "title": "travelling",
+        "text": "Time to boost your travel time with the best of Lamborghini style accessories and get the most out of your Super SUV during your vacations. The Accessori Originali range offers the finest, yet sporty travel pack to accompany you, whether you are planning a quick weekend getaway or a longer adventure. Drive in extra comfort by equipping your Urus with the highest quality components and materials both you and your vehicle deserve, and wave goodbye to travel-related burden."
+      },
+      "section2": {
+        "img": "https://pbs.twimg.com/media/DqswROwWsAAmMcW.jpg:large",
+        "type": "usability",
+        "title": "PET CARE",
+        "text": "Created for pet lovers, this accessories kit features items designed to meet every need: from safety belts to protective rear seat covers, and accessibility ramps for easy access to the luggage compartment."
+      },
+      "section3": {
+        "img": "https://www.lamborghini-avtodom.ru/uploads/news/2407308db20bd0e0255be597290ac531.jpg",
+        "type": "SPORT",
+        "title": "TITANIUM EXHAUST",
+        "text": "This exclusive accessory is the only Lamborghini type-approved exhaust system that can guarantee the validity of the warranty conditions."
+      },
+      "section4": {
+        "img": "https://dmc.ag/wp-content/uploads/2019/08/Lamborghini_Wide_Body_Urus_SUV_Fender_Extensions_Carbon_Fiber_Front.jpg",
+        "type": "EXTERIOR",
+        "title": "CARBON FIBER COMPONENTS",
+        "text": "Automobili Lamborghini has an unrivaled tradition in the development of high-tech solutions using carbon fiber, a lightweight and extremely durable material. For this reason, the Accessori Originali range also includes an extensive offer of carbon fiber components, which help raise the performance and style of your Urus even further."
+      },
+      "section5": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/urus/2022/over/urus_acc_over_05_m.jpg",
+        "type": "INTERIOR",
+        "title": "INTERIOR PROTECTION",
+        "text": "This set of accessories is characterized by style and practicality and is designed to protect the quality of the interior of your Urus. From the cargo liner to the protective film, to the cargo stopper and rubber floor mats, the pleasure of always having a new and comfortable interior will be with you on every trip."
+      },
+      "brochureImg": "https://cdn-ds.com/blogs-media/sites/61/2021/04/14163523/E6-2021-Lamborghini-Urus_A_o.jpg"
+    },
+    {
+      "name": "huracan",
+      "accessoryCarousel": [
+        {
+          "id": 1,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/gateway/2022/07_20/slider/hura_accessori.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/08_17_accessori_originali/LAMBO-PELLICOLE0344.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://live.staticflickr.com/65535/49829985392_05147c895e_b.jpg"
+        },
+        {
+          "id": 4,
+          "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/acc_hura_og.jpg"
+        }
+      ],
+      "brochure": "file:///C:/Users/User/Downloads/accessori-2017.pdf",
+      "section1": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/2022/over/hura_acc_over_rev_01.jpg",
+        "type": "SPORT",
+        "title": "TITANIUM EXHAUST",
+        "text": "The titanium exhaust is an extremely advanced component that doesn’t go unnoticed: made entirely from lightweight titanium of the highest quality, its two exhaust terminals and unmistakable Huracán design delivers an impressive look matched by the sound and performance. Available for Huracán EVO, EVO RWD, STO and Performante."
+      },
+      "section2": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/2022/over/hura_acc_over_01.jpg",
+        "type": "EXTERIOR ",
+        "title": "CARBON FIBER REARVIEW MIRRORS",
+        "text": "The carbon fiber gives this accessory an even racier touch, with the added benefit of lightness, durability, and sportiness. The mirrors come in two different exclusive finishes: gloss and matt."
+      },
+      "section3": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/over/acc_hura_over_rev_02.jpg",
+        "type": "EXTERIOR ",
+        "title": "RIMS",
+        "text": "Thin, light and durable, the Huracán rims are designed in Sant’Agata Bolognese and are forged to perfection from a single piece of aluminum. The result is an unmistakably sporty and distinctive look.."
+      },
+      "section4": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/2022/over/hura_acc_over_02.jpg",
+        "type": "EXTERIOR ",
+        "title": "DOOR LIGHTS",
+        "text": "The high-definition LED door light kit is a high-impact accessory, projecting the iconic Lamborghini shield on the ground. A unique effect that will brighten up every trip you take. "
+      },
+      "section5": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/2022/over/hura_acc_over_rev_03.jpg",
+        "type": "CARE & SAFETY",
+        "title": "CARE & SAFETY",
+        "text": "Driving a Lamborghini car is always a thrill: the strive for perfection of Sant'Agata Bolognese factory is legendary and includes every tiny detail. You may want to secure the quality of your Huracán with a dedicated range of Accessori Originali."
+      },
+      "brochureImg": "https://www.autoblog.nl/files/2020/05/lamborghini-haracan-rwd-evo-spyder-2020-970-011-919x612.jpg"
+    },
+    {
+      "name": "aventador",
+      "accessoryCarousel": [
+        {
+          "id": 1,
+          "src": "https://s1.1zoom.ru/big0/336/Lamborghini_Aventador_488662.jpg"
+        },
+        {
+          "id": 2,
+          "src": "https://cdn-ds.com/blogs-media/sites/94/2019/08/27210020/Front-view-of-copper-colored-2020-Lamborghini-Aventador-SVJ-Roadster_o.jpg"
+        },
+        {
+          "id": 3,
+          "src": "https://www.donanimhaber.com/images/images/haber/135817/src_600x338780-beygirlik-lamborghini-aventador-ultimae-tanitildi.jpg"
+        },
+        {
+          "id": 4,
+          "src": "https://autogaleria.pl/img/1080/607/fit/content/uploads/2018/08/lamborghini-aventador-svj-01.jpg"
+        }
+      ],
+      "brochure": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/brochure/2021/aventador/Accessori_Originali_AVENTADOR_ENGLISH.pdf",
+      "section1": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/aventador/2022/over/acc_aven_over_01.jpg",
+        "type": "EXTERIOR",
+        "title": "CARBON FIBER KICK PLATE",
+        "text": "This isn’t any old kick plate but a special, customized accessory that will add that exclusive touch you’re looking for thanks to the quality of the material: carbon fiber."
+      },
+      "section2": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/huracan/2022/over/hura_acc_over_01.jpg",
+        "type": "EXTERIOR ",
+        "title": "CENTER LOCK RIMS",
+        "text": "Forged from a lightweight, hard-wearing aluminum alloy, the center lock conversion kit and exclusive 7 Razze rims give your Aventador an unmistakably sporty and unique look."
+      },
+      "section3": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/aventador/over/acc_aven_over_rev_02.jpg",
+        "type": "EXTERIOR ",
+        "title": "X-FRAME IN CARBON FIBER",
+        "text": "Together with the complete set of engine bay shields and the T-Engine cover, the X-Frame support helps adds that finishing touch to your engine compartment. Made from carbon fiber, an advanced material with an unrivaled strength-to-weight ratio, this component is treated with a clear heat-resistant coating. The result is an ultra-sporty look."
+      },
+      "section4": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/aventador/2022/over/acc_aven_over_02.jpg",
+        "type": "CARE & SAFETY ",
+        "title": "PROTECTIVE FILM",
+        "text": "This accessory is the ideal solution for protecting your Lamborghini: it fits the vehicle perfectly, preserving the paintwork and offering excellent protection against chipping from stones and road debris as well as from scratches. It works like an invisible second skin."
+      },
+      "section5": {
+        "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/accessori_originali/aventador/2022/over/acc_aven_over_03.jpg",
+        "type": "CARE & SAFETY",
+        "title": "CARE & SAFETY",
+        "text": "Driving a Lamborghini car is always a thrill: the strive for perfection of Sant'Agata Bolognese factory is legendary and includes every tiny detail. You may want to secure the quality of your Aventador with a dedicated range of Accessori Originali."
+      },
+      "brochureImg": "https://img.remediosdigitales.com/807dfe/1366_2000/1366_2000.jpeg"
+    }
+  ],
+
+
+  "limited": [
+    {
+      "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/sian_hero_01.jpg",
+      "subtitle": "sian fkp 37",
+      "title": "ahead of its time",
+      "powerCv": "819 CV",
+      "powerKw": "602 KW",
+      "maxSpeed": "335",
+      "fastest": "2.8s",
+      "section1": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/sian/sian_fkp_37/ar_sian_fkp.png",
+          "title": "AUGMENTED REALITY",
+          "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+        }
+      ],
+      "section2": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/over/sian_over_01a.jpg",
+          "title": "OVERVIEW",
+          "text": "The Sián FKP 37 is the first super sports car powered by a V12 engine and hybrid technology based on supercapacitors. Its powerful V12 engine, coupled with electric boost, creates an unrivaled gem of engineering and technology. Sián—lightning in Bolognese—is a name that captures the car’s true character, foremost its speed, which exceeds 220 mph (350 km/h)."
+        }
+      ],
+      "section3": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/07_16_sian_material/sian_material_03_m.jpg",
+          "title": "EXTERIOR",
+          "text": "The Design DNA of Lamborghini is taken to its peak levels: inspired by the Countach, the Sián FKP 37 has sharp lines, aerodynamic elegance and an unmistakable silhouette. Its totally carbon fiber body leaves you breathless. The electrochromic roof and moving surfaces controlled by smart materials are sculpted by innovative lines. The Terzo Millennio-inspired headlights leave behind an indelible luminous signature that will shape future Lamborghini design."
+        }
+      ],
+      "section4": [
+        {
+          "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/07_16_sian_material/sian_material_03_m.jpg",
+          "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/s/Lamborghini-SIAN_FKP_37-s-3.jpg"
+        }
+      ],
+      "section5": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/s/Lamborghini-SIAN_FKP_37-s-4.jpg",
+          "title": "INTERIOR",
+          "text": "Inside the Lamborghini Sián FKP 37, luxurious Italian craftsmanship meets state-of-the-art technology with a cabin designed to provide a driving experience that combines adrenaline-charged acceleration with utmost comfort. Additionally, the passenger compartment features recurring design elements that reflect classic Lamborghini style, including Y-shaped features and hexagonal shapes, rendered to perfection with meticulous attention to every detail."
+        }
+      ],
+      "section6": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/connected_car/hura_connect_over_03.jpg",
+          "title": "CONNECT WITH YOUR HURACÁN EVO RWD SPYDER",
+          "text": "With the new connected services, the experience on board your Huracán EVO RWD Spyder becomes even more enjoyable, remotely as well using the Lamborghini UNICA app. Exclusive comfort, navigation, safety and entertainment features will let you manage your Lamborghini better than ever before."
+        }
+      ],
+      "section7": [
+        {
+          "displacement": "6,498 cm³ (396.5 cu in)",
+          "maxPower": "610 CV (449 kW) @ 8,000 rpm",
+          "speed": "324 km/h",
+          "acceleration": "3.5 s",
+          "consuption": "14,8 l/100km (WLTP)",
+          "emission": "335 g/km (WLTP)"
+        }
+      ],
+      "modelImages": [
+        {
+            "id": 1,
+            "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/gallery/sian_05_m.jpg"
+        },
+        {
+            "id": 2,
+            "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/gallery/sian_01.jpg"
+        },
+        {
+            "id": 3,
+            "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/gallery/sian_02.jpg"
+        },
+        {
+            "id": 4,
+            "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/gallery/sian_03.jpg"
+        },
+        {
+            "id": 5,
+            "src": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2022/06_20/gallery/sian_04.jpg"
+        }
+      ]
+    },
+    {
+      "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_02.jpg",
+      "subtitle": "sian roadster",
+      "title": "rewind to rear-wheel drive",
+      "powerCv": "819 CV",
+      "powerKw": "602 KW",
+      "maxSpeed": "350",
+      "fastest": "2.9s",
+      "section1": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/ar_sian_rds.png",
+          "title": "AUGMENTED REALITY",
+          "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+        }
+      ],
+      "section2": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/over/sian_rds_over_01.jpg",
+          "title": "OVERVIEW",
+          "text": "The first open-top hybrid Lamborghini super sports car to feature a supercapacitor, the Sián Roadster roars with electrified intensity, resonating with the inimitable V12 sound from the most powerful Lamborghini engine to date. Limited to only 19 examples, the Sián Roadster advances hybrid technology with the world’s first use of a supercapacitor in a materials-science application unique to the industry.          "
+        }
+      ],
+      "section3": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/s/sian_rds_s_01.jpg",
+          "title": "EXTERIOR",
+          "text": "The futuristic Lamborghini design features long, sculptured contours and distinctive aero wings to define a commanding and powerful profile, a shape that is pure and purposeful. The very low front, enhanced by an integrated carbon fiber splitter and the iconic Lamborghini Y-shaped headlights, optimizes aerodynamic efficiency, for a sensation perceptible from within the open-air cabin."
+        }
+      ],
+      "section4": [
+        {
+          "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/s/SIAN_rds-s-3_M_.jpg",
+          "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/s/sian_rds_s_02_m.jpg"
+        }
+      ],
+      "section5": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/07_08_sian_rds_launch/SIAN_rds-07_M.jpg",
+          "title": "INTERIOR",
+          "text": "Lamborghini elevates the design of its hybrid cars with sophisticated aluminum details painted in Oro Electrum (gold), the color Lamborghini has chosen to identify it’s hybrid cars. The purposeful interior of the Sián Roadster embraces this elegant effect with Y-shaped features and distinctive hexagonal accents harkening back to the first Lamborghini Miura. Every touch reflects meticulous attention to detail, from the driver controls to the newly designed air vents produced by special 3D printing, a technology that allows a customer’s initials to be incorporated into the vent design."
+        }
+      ],
+      "section6": [
+        {
+          "img": "https://www.supercars.net/blog/wp-content/uploads/2020/07/563958-scaled.jpg",
+          "title": "CONNECT WITH YOUR sian roadster",
+          "text": "Added to the impeccable dynamics of the vehicle and the performance qualities of the aspirated engine are the excellence of its design, where very fine and exclusive materials come together in symbiosis with an ultralight body.          "
+        }
+      ],
+      "section7": [
+        {
+          "displacement": "5,204 cm³ (317.57 cu in)",
+          "maxPower": "610 CV (449 kW) @ 8,000 rpm",
+          "speed": "350 km/h",
+          "acceleration": "2.9 s",
+          "consuption": "14,8 l/100km (WLTP)",
+          "emission": "335 g/km (WLTP)"
+        }
+      ],
+      "modelImages": [
+        {
+          "id": 1,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_05.jpg"
+        },
+        { 
+          "id": 2,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_04.jpg"
+        } ,
+        {
+          "id": 3,
+           "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_03.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_01.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian_rds/2022/06_20/gallery/sian_rds_02.jpg"
+        }
+      ]
+    },
+    {
+      "background": "https://assets.newatlas.com/dims4/default/7e2f3dc/2147483647/strip/true/crop/4500x3000+0+0/resize/2880x1920!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F9a%2F40%2Fa1b5a6b04e5d8952b3c07956c1b9%2F592012.jpg",
+      "subtitle": "countach lpi 800-4",
+      "title": "future is our legacy",
+      "powerCv": "355 CV",
+      "powerKw": "429 KW",
+      "maxSpeed": "355",
+      "fastest": "2.8s",
+      "section1": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/ar/Countach_AR_final.png",
+          "title": "AUGMENTED REALITY",
+          "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+        }
+      ],
+      "section2": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/layout/countach_over_m.jpg",
+          "title": "OVERVIEW",
+          "text": "Fifty years since its unveiling at the Geneva Motor Show, the legendary Lamborghini Countach is making headlines again with a limited-series hybrid supercar celebrating the visionary design that revolutionized modern sports cars forever and laid the foundations of the Lamborghini legacy. This is the new Countach LPI 800-4. Inspired by the past, made for the future."
+        }
+      ],
+      "section3": [
+        {
+          "img": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20210813080947_Lamborghini_COUNTACH_LPI800_group_3.jpg&w=700&q=90&c=1",
+          "title": "EXTERIOR",
+          "text": "Perfect proportions and a futuristic style. The daring, disruptive design that has inspired generations of supercars lives on in this commemorative version, of which only 112 units will be manufactured. The clean lines, the rear longitudinal position of the V12 engine and the iconic scissor doors, now reinterpreted with even sharper edges, make it instantly recognizable and revolutionary at the same time. Exclusive trims have been designed to reflect the car’s unique DNA, such as the solid heritage colors Giallo Countach and Impact White, along with contemporary metallic colors such as Viola Pasifae and Blu Uranus."
+        }
+      ],
+      "section4": [
+        {
+          "img1": "https://www.topgear.com/sites/default/files/2021/08/591379.jpg",
+          "img2": "https://wokolmotoryzacji.pl/wp-content/uploads/2021/08/lamborghini-countach-lpi-800-4-3.jpg"
+        }
+      ],
+      "section5": [
+        {
+          "img": "https://hips.hearstapps.com/hmg-prod/images/lamborghini-countach-lpi-800-4-134-1628724133.jpg?crop=0.922xw:1.00xh;0.0554xw,0&resize=480:*",
+          "title": "INTERIOR",
+          "text": "The low, geometric cabin of the Countach LPI 800-4 complements the lines of the exterior, expressing a new design that amplifies the sensation of being in a car from the future. An exclusive range of single-color, two-color and carbon fiber trims preserve the elemental yet unconventional style of a timeless classic. The car’s unique style speaks to you from every angle and combines beautifully with luxury Italian craftsmanship and cutting-edge technology."
+        }
+      ],
+      "section6": [
+        {
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/connected_car/hura_connect_over_03.jpg",
+          "title": "CONNECT WITH YOUR countach lpi 800-4",
+          "text": "The hypermodern design of the new Countach LPI 800-4, which reflects the original aesthetic principles of the iconic V12 model, is further enhanced through a wide range of special trims."
+        }
+      ],
+      "section7": [
+        {
+          "displacement": "5,204 cm³ (317.57 cu in)",
+          "maxPower": "610 CV (449 kW) @ 8,000 rpm",
+          "speed": "355 km/h",
+          "acceleration": "2.8 s",
+          "consuption": "14,8 l/100km (WLTP)",
+          "emission": "335 g/km (WLTP)"
+        }
+      ],
+      "modelImages": [
+        {
+          "id": 1,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/gallery/countach_g01.jpg"
+        },
+        { 
+          "id": 2,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/gallery/countach_g02.jpg"
+        } ,
+        {
+          "id": 3,
+           "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/gallery/countach_g03.jpg"
+        },
+        {
+          "id": 4,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/gallery/countach_g04.jpg"
+        },
+        {
+          "id": 5,
+          "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/gallery/countach_g05.jpg"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "model": "huracan",
+      "link": "Huracan",
+      "singleModel": [
+        {
+          "background": "https://cdn.motor1.com/images/mgl/40eJqo/s3/lamborghini-huracan-tecnica.jpg",
+          "subtitle": "huracan tecnica",
+          "title": "take all your souls to drive",
+          "powerCv": "640 CV",
+          "powerKw": "470 KW",
+          "maxSpeed": "325",
+          "fastest": "3.2s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_tecnica/hura_tecnica_ar_01.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sr52371-1-1657652401.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*",
+              "title": "OVERVIEW",
+              "text": "The latest member of the Huracán range provides the purest Lamborghini driving experience combined with the freedom of everyday use: a bridge between past and future, lifestyle and performance, road and track. Huracán Tecnica brings forth a pilot’s attitude in every driver, delivering the most rewarding performance and the ultimate, fun-to-drive experience — simultaneously. Unleash the unique character of the most versatile Huracán."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://images.pistonheads.com/nimg/45880/blobid1.jpg",
+              "title": "EXTERIOR",
+              "text": "Huracán Tecnica was designed as a bridge between worlds to combine performance and beauty. The lines emphasize distinctive new expressions inspired by the racing DNA of the Huracán Super Trofeo EVO2. The front and rear architectures were restructured with sharper lines to improve aerodynamics, bringing about stability and ease in every condition, especially on the track. The powerful lines shape a new, unforgettable portrait of the Huracán range."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://car-images.bauersecure.com/wp-images/155171/lamborghini_huracan_tecnica_review_06.jpg",
+              "img2": "https://www.topgear.com/sites/default/files/2022/06/4-Lamborghini-Huracan-Tecnica.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/s/hura_tecnica_s_04_m.jpg",
+              "title": "INTERIOR",
+              "text": "Made for the driver. The versatility that distinguishes Huracán Tecnica is also a main feature of its interior, with extensive personalization options geared toward providing the most fulfilling driving experience. Exclusive interior finishes made of top-quality materials reflect Lamborghini’s Italian design heritage and include a new dedicated trim for the sports seats. Technology also plays a large role in the experience, with dedicated HMI graphics and enhanced connectivity exclusive to Huracán Tecnica.A vast range of Ad Personam combinations is available to further enhance exclusivity."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://hips.hearstapps.com/hmg-prod/images/2022-lamborghini-huracan-tecnica-5931-1649857051.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN TECNICA",
+              "text": "The exclusive and advanced suite of connected technologies is ready to raise driving engagement to a level never experienced before. Lamborghini Connect gives Huracán Tecnica drivers peace of mind when they are not at the wheel and provides always-up-to-date functions on board."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm3",
+              "maxPower": "470/640 kW/CV at 8000 rpm",
+              "speed": "325 km/h",
+              "acceleration": "3.2 s",
+              "consuption": "14,5 l/100km (WLTP)",
+              "emission": "328 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/header_n.jpg",
+          "subtitle": "huracan evo rwd",
+          "title": "rewind to rear-wheel drive",
+          "powerCv": "610 CV",
+          "powerKw": "429 KW",
+          "maxSpeed": "325",
+          "fastest": "3.3s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/header_n.jpg",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/over/hura_evo_rwd_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The Huracán EVO RWD bears the evolution of the predictive technology employed in the best-loved Lamborghini V10 model, distilled to deliver pure, unfiltered driving excitement. Here, driving skills and mechanics make the difference: this “return to rear-wheel drive” embraces the origins of mechanical purity—the true essence of a Lamborghini."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://di-uploads-pod42.dealerinspire.com/lamborghinibroward/uploads/2022/03/2021-Huraca%CC%81n-EVO-RWD-Spyder.jpg",
+              "title": "EXTERIOR",
+              "text": "Sophisticated aerodynamic solutions meld with iconic Lamborghini design that, in the Huracán EVO RWD, draws inspiration from the head of a shark. The car’s lines draw defined paths toward the exterior: the large front air intake is equipped with an improved aerodynamic system, while the new lower rear diffuser is specially designed. The characteristic Y-shaped headlights are integrated in the front splitter and follow the aerodynamic lines."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.autopediame.com/storage/images/Lamborghini/555877.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/s/hura_evo_rwd_s_02.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://auto.vercity.ru/gallery/img/automobiles/Lamborghini/2020%20Lamborghini%20Huracan%20Performante%20by%20VF%20Engineering/dl/1582985441_65.jpg",
+              "title": "INTERIOR",
+              "text": "The Huracán EVO RWD is the purest example of connection, of interaction with the machine through physical contact and the senses. Its advanced interior features an 8.4-inch touchscreen system integrated in the center console, offering a sophisticated on-board experience. Leather, Alcantara and Carbon Skin®, an innovative carbon-fiber material available exclusively from Lamborghini, are the available upholstery options."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/connected_car/hura_connect_over_03.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN EVO RWD",
+              "text": "The exclusive and advanced suite of connected technologies is ready to raise driving engagement to a level never experienced before. Lamborghini Connect gives Huracán Tecnica drivers peace of mind when they are not at the wheel and provides always-up-to-date functions on board."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm3",
+              "maxPower": "470/640 kW/CV at 8000 rpm",
+              "speed": "325 km/h",
+              "acceleration": "3.2 s",
+              "consuption": "14,5 l/100km (WLTP)",
+              "emission": "328 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.topgear.com/sites/default/files/cars-car/carousel/2019/01/lamborghini_huracan_evo_grigio_artis_107_1.jpg",
+          "subtitle": "huracan evo rwd spyder",
+          "title": "rewind to rear-wheel drive",
+          "powerCv": "610 CV",
+          "powerKw": "429 KW",
+          "maxSpeed": "325",
+          "fastest": "3.3s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/ar/ar_evo_rwd_spyder.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/over/hura_evo_rwd_spy_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The Huracán EVO RWD Spyder is dedicated to those who believe in the pure pleasure and excitement of driving, an experience heightened by the adrenaline that comes from open-top performance. Discovering new roads with the wind in your hair, heart racing with the sound of the engine, gives you an unparalleled feeling of freedom as you accelerate toward new emotions. The magic unfolds as you “return to rear-wheel drive” and immerse yourself in the tactile sensations and the mechanical purity of a Lamborghini."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2021/06_23/Gallery/evo_rwd_01.jpg",
+              "title": "EXTERIOR",
+              "text": "As a unique expression of Lamborghini Design DNA, the Huracán EVO RWD Spyder reflects the purest creative vision through perfection of form, gratifying the emotions from every angle. The RWD version of the EVO Spyder clearly differs from its 4WD counterpart with its shark-like nose and new, sharper lines in the rear diffusor. In contrast to the Y theme employed in the design of the Huracán EVO 4WD, Lamborghini has adopted a wider, and very sharp, air intake for the RWD model."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://cdn.motor1.com/images/mgl/ep73p/s3/lamborghini-huracan-evo-rwd-spyder.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/s/hura_evo_rwd_spy_s_02.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://dealerimages.dealereprocess.com/image/upload/2425518",
+              "title": "INTERIOR",
+              "text": "The sophisticated interior of the Huracán EVO RWD Spyder is a welcoming cabin that creates a direct connection with its driver. Here, you interact with your super sports car in the most direct and personal way, inspired by the exhilarating sounds that come with 610 CV immediately to the cabin’s rear. The carbon fiber sport seats, available for all the Huracán range, maximize cabin roominess and confer a sporting look, while offering exceptional comfort that makes the Huracán EVO RWD an ideal super sports car to use every day. The 8.4-inch touchscreen system integrated in the center console provides an all-encompassing onboard experience. Leather, Alcantara® and Carbon Skin®, an innovative carbon fiber material available exclusively from Lamborghini, are the available upholstery options."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/connected_car/hura_connect_over_03.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN EVO RWD SPYDER",
+              "text": "With the new connected services, the experience on board your Huracán EVO RWD Spyder becomes even more enjoyable, remotely as well using the Lamborghini UNICA app. Exclusive comfort, navigation, safety and entertainment features will let you manage your Lamborghini better than ever before."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm³ (317.57 cu in)",
+              "maxPower": "610 CV (449 kW) @ 8,000 rpm",
+              "speed": "324 km/h",
+              "acceleration": "3.5 s",
+              "consuption": "14,8 l/100km (WLTP)",
+              "emission": "335 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/gallery/hura_evo_rwd_spy_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/gallery/hura_evo_rwd_spy_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/gallery/hura_evo_rwd_spy_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/gallery/hura_evo_rwd_spy_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd_spyder/2022/10_06/gallery/hura_evo_rwd_spy_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/connected_car/hura_connect_over_04.jpg",
+          "subtitle": "huracan sto",
+          "title": "based on a true story",
+          "powerCv": "640 CV",
+          "powerKw": "470 KW",
+          "maxSpeed": "310",
+          "fastest": "3.0s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_sto/ar_huracan_sto.jpg",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/over/hura_sto_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "A super-sports car created with a singular purpose, the Huracán STO delivers all the feel and technology of a genuine race car in a road-legal model. Lamborghini’s years-long motorsport know-how, intensified by a winning heritage, is concentrated in the new Huracán STO. Its extreme aerodynamics, track-honed handling dynamics, lightweight contents and the highest-performing V10 engine to date come together, ready to trigger all the emotions of the racetrack in your everyday life."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sto-png-1632725229.png?crop=1.00xw:1.00xh;0,0&resize=640:*",
+              "title": "EXTERIOR",
+              "text": "A lightweight approach and functional design combine to express pure performance. While its contours may be reminiscent of the Huracán Super Trofeo EVO, the Huracán STO features a completely revised shape that optimizes the vehicle’s aerodynamics, while employing carbon fiber in more than 75% of the body panels. In particular, the Cofango—a specially designed body component that incorporates the front hood and fenders—maximizes frontal aerodynamic performance while saving weight. The overall effect is an immediate sense of racing excitement."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20201119112020_2021-Lamborghini-Huracan-STO-interior.jpg&w=700&q=90&c=1",
+              "img2": "https://www.autotrader.com/wp-content/uploads/2021/10/2022-lamborghini-huracan-sto-front-right-1.jpg?w=1024"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/s/hura_sto_s_04_m.jpg",
+              "title": "INTERIOR",
+              "text": "The interior features the same track-minded approach, using lightweight, high-quality materials throughout—most notably carbon fiber. Featured in the door panels, interior details, seats and floor mats, this innovative and distinctive material offers a super-sports look that perfectly complements the car’s fine Alcantara® and Carbon Skin® finishes for added performance flair and functional style. While recalling the Huracán EVO, the interior solutions of the new Huracán STO contribute to an overall weight reduction compared to the previous model. Along with additional features such as a new trim and titanium roll bar with 4-point seatbelts**, the end result elicits the sensation and character of true racing from the moment you get behind the wheel."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/connected_car/hura_connect_over_04.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN STO",
+              "text": "The exclusive and advanced suite of connected technologies are ready to raise driving engagement to a level never experienced before. Lamborghini Connect gives STO drivers peace of mind when they are not at the wheel and always up to date functions on board while driving."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm³ (317.57 cu in)",
+              "maxPower": "470/640 at 8,000 rpm",
+              "speed": "310 km/h",
+              "acceleration": "3.0 s",
+              "consuption": "13.9 l/100km (WLTP)",
+              "emission": "331 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/gallery/hura_sto_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/gallery/hura_sto_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/gallery/hura_sto_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/gallery/hura_sto_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/sto/2022/10_06/gallery/hura_sto_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/huracan/Evo/restyle/3_RP---Huracan-Evo-88.jpg",
+          "subtitle": "huracan evo",
+          "title": "every day amplfied",
+          "powerCv": "640 CV",
+          "powerKw": "470 KW",
+          "maxSpeed": "325",
+          "fastest": "2.9s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_evo/H-EVO_3.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/over/hura_evo_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The Huracán EVO is the evolution of the most successful V10-powered Lamborghini ever. The result of fine-tuning and refining existing features, combined with new design solutions that increase performance, the car stands out for its ability to anticipate and cater to the driver’s behavior, expectations and desires."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://img-c.drive.ru/models.large.main.images/0000/000/000/001/5c4/48d7019dcfa7872a-main.jpg",
+              "title": "EXTERIOR",
+              "text": "The Huracán EVO introduces refined aerodynamic solutions while remaining true to the design philosophy that is the hallmark of Lamborghini. The front bumper adopts unmistakable Lamborghini Y-shape stylistic elements, hood lines inspired by the Countach, skirt air intakes reminiscent of the Murciélago, and central high-mounted exhaust tailpipes that recall the highest-performance Lamborghini models of the past.New features include 20-inch Aesir rims and new Ad Personam colors for the bodywork."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/s/hura_evo_s_03_m.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/s/hura_evo_s_02.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_05.jpg",
+              "title": "INTERIOR",
+              "text": "The passenger compartment features a cutting-edge 8.4-inch touchscreen system in the center console, from which the vehicle and entertainment functions are controlled. Exclusive interior finishes reflect authentic Italian design and feature the highest quality materials, with upholstery available in leather, Alcantara and—for the first time—Carbon Skin®, an innovative carbon-fiber material available exclusively from Lamborghini."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/connected_car/hura_connect_over_03.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN EVO",
+              "text": "With the new connected services, the experience on board your Huracán EVO becomes even more enjoyable, remotely as well using the Lamborghini UNICA app. Exclusive comfort, navigation, safety and entertainment features will let you manage your Lamborghini better than ever before."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm³ (317.57 cu in)",
+              "maxPower": "640 CV (470 kW) @ 8,000 rpm",
+              "speed": "km/h >325 (mph > 202)",
+              "acceleration": "2.9 s",
+              "consuption": "14,7 l/100km (WLTP)",
+              "emission": "332 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/2022/10_06/gallery/hura_evo_5.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "model": "aventador",
+      "link": "Aventador",
+      "singleModel": [
+        {
+          "background": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/588390-1625663609.jpg",
+          "subtitle": "aventador 780-4 ultimae",
+          "title": "it takes time to become timeless",
+          "powerCv": "780 CV",
+          "powerKw": "574 kW",
+          "maxSpeed": "355 ",
+          "fastest": "2.8s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/ultimae/ar_ultimae.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/over/aven_ultimae_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The latest version of Aventador is not only powerful, it is the most powerful Aventador ever made. With the highest-performing standard-production naturally aspirated V12 engine in Lamborghini history, it incorporates advanced technological solutions and unparalleled design. This gem, to be produced in only 350 units, is the final—and greatest—expression of a family of super sports cars that has left its mark on the last decade. Aventador LP 780-4 Ultimae is already a classic transformed into an icon."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://aglomerado.digital/wp-content/uploads/2022/10/Lamborghini-Aventador-LP-780-4-Ultimae2-1.webp",
+              "title": "EXTERIOR",
+              "text": "In the spirit of the first Aventador—with its rear longitudinal engine position and extensive use of carbon fiber—the Ultimae shows off a look featuring pure and essential lines. The livery, developed specifically by Lamborghini Centro Stile, celebrates the peak of Aventador production with a harmonious balance of shapes, accentuated by a use of light and shade between the black and painted parts.Embracing form and a sporting essence, the new model is a style icon that has no fear of the passage of time."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/s/aven_ultimae_s_03_m.jpg",
+              "img2": "https://imageio.forbes.com/specials-images/imageserve//62bf7fe453ae49f439364b92/0x0.jpg?format=jpg&width=1200"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://vehint.com/wp-content/uploads/2022/05/2022_lamborghini_aventador_lp_780-4_ultimae_3.jpg",
+              "title": "INTERIOR",
+              "text": "Exclusivity and sophistication distinguish the interior of this latest masterpiece of the Aventador range. Premium yet practical materials like carbon fiber are employed for the most important finishes, while Alcantara® upholstery, laser-cut with a Y motif to let the colorful backing peek through, give the luxurious passenger compartment a distinctive touch.These refined fittings are embellished with a carbon fiber plate displaying the number of units of this limited series. A range of brand-new Ad Personam combinations further enhances the Aventador LP 780-4 Ultimae."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo/connected_car/hura_connect_over_03.jpg",
+              "title": "CONNECT WITH YOUR aventador 870-4 ultimae",
+              "text": "In the new Aventador LP 780-4 Ultimae, the exceptional combination between the active steering system (Lamborghini Dynamic Steering) and the rear steering system (Lamborghini Rear-Wheel Steering) delivers dynamic performance that enhances agility at low speed while optimizing control and stability at high speed."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "6,498 cm3 (396.5 cu in)",
+              "maxPower": "780 CV (574 kW) at 8,500 rpm",
+              "speed": "355 km/h",
+              "acceleration": "2.8 s",
+              "consuption": "18.0 l/100km (WLTP)",
+              "emission": "442 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/Ultimae/2022/05_18/gallery/aven_ultimae_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g2.jpg",
+          "subtitle": "aventador svj",
+          "title": "it takes time to become timeless",
+          "powerCv": "770 CV",
+          "powerKw": "566 kW",
+          "maxSpeed": "350 ",
+          "fastest": "2.8s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj/11_17/ar_aventador_svj.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/aventador_svj_overview.jpg",
+              "title": "OVERVIEW",
+              "text": "Lamborghini created the Aventador SVJ to embrace challenges head-on, combining cutting-edge technology with extraordinary design, while always refusing to compromise. In a future driven by technology, it’s easy to lose the genuine thrill of driving. But in the future shaped by Lamborghini, this won’t be left behind, because there will always be a driver behind the wheel."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://pictures.dealer.com/l/lamborghinidallas/1886/79544027ad1e8a236f3ba78c5edc79bex.jpg?impolicy=downsize&w=568",
+              "title": "EXTERIOR",
+              "text": "Ultra-lightweight materials developed for maximum performance give rise to breathtaking design. Enhanced aerodynamic profiles, a fully redesigned front end, larger side skirts, the omega-shaped rear wing and lighter, and higher exhaust outlets are incorporated into the feather-light carbon-fiber chassis. A special edition of just 63 examples, known as the SVJ 63 and featuring an exclusive color and finishes, highlights the extensive use of carbon fiber."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://i.pinimg.com/originals/a7/09/33/a709331d6e9281ca41550833fc92e908.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/aventador_svj_s2.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://i.pinimg.com/originals/91/7d/a5/917da5f6b978a9830cde49c6d05f0be4.jpg",
+              "title": "INTERIOR",
+              "text": "The technological look of carbon fiber, featured in the monocoque as well as the doors, seats, center tunnel and console, coexists with a design of clear aeronautical inspiration, while the leather and Alcantara upholstery adds a bold touch to the luxurious interior. But it is the refined details of the cross-stitching and special SVJ plaque that confer a truly unique character to this remarkable engineering gem."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://images.drive.ru/i/0/5b7fe07cec05c4804a000173.jpg",
+              "title": "CONNECT WITH YOUR aventador svj",
+              "text": "The ALA system is optimized for the Aventador SVJ and is now known as ALA 2.0, which incorporates new air intake and aero channel designs."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "6,498 cm³",
+              "maxPower": "566 kW (770 CV) at 8,500 rpm",
+              "speed": "350 km/h",
+              "acceleration": "2.8 s",
+              "consuption": "18.0 l/100km (WLTP)",
+              "emission": "442 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/Gallery/aventador_svj_g1.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/Gallery/aventador_svj_g2.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/Gallery/aventador_svj_g3.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/Gallery/aventador_svj_g4.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj/2021/03_19/Gallery/aventador_svj_g5.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://cdn.motor1.com/images/mgl/byLpn/s1/lamborghini-aventador-svj-roadster.jpg",
+          "subtitle": "aventador svj roadster",
+          "title": "real emotions shape hte future",
+          "powerCv": "770 CV",
+          "powerKw": "566 kW",
+          "maxSpeed": "350 ",
+          "fastest": "2.9s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj_rds/ar_aven_svj_rds_01.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/aventador_svj_r_overview1.jpg",
+              "title": "OVERVIEW",
+              "text": "Limited to a mere 800 examples, the SVJ Roadster is the most iconic form of the Aventador family. Its Lamborghini aerodynamics represent the most futuristic ever designed: the ALA 2.0 system and aero-vectoring ensure the minimum drag on straightaways and the optimal aerodynamic load when cornering. The 770 hp naturally aspirated V12 engine inspires awe."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://supercarsallday.com/wp-content/uploads/2020/05/Lamborghini-Aventador-SVJ-Roadster-1.jpg",
+              "title": "EXTERIOR",
+              "text": "The SVJ Roadster uses ultra-light carbon fiber for its bodywork and rigid removable roof. The body features larger air intakes and more extended side skirts, accentuated aerodynamic profiles and a lighter exhaust system mounted higher up. The rigid roof is made using an innovative, high-pressure RTM molding technology. The SVJ 63 Roadster, produced in a limited edition of only 63 examples, features an even more dynamic and exclusive appearance."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/aventador_svj_r_s3_m.jpg",
+              "img2": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/f8a5524-1577073008.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=480:*"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/aventador_svj_r_s4_m.jpg",
+              "title": "INTERIOR",
+              "text": "The technological look of carbon fiber, featured in the monocoque as well as the doors, seats, center tunnel and console, coexists with a design of clear aeronautical inspiration, while the leather and Alcantara upholstery adds a bold touch of exclusivity to the luxurious interior. But it is the refined details of the cross-stitching and special SVJ Roadster plaque that confer a truly unique character to this remarkable automobile."
+            }
+          ],
+          "section6": [ 
+            {
+              "img": "https://images.drive.ru/i/0/5b7fe07cec05c4804a000173.jpg",
+              "title": "ALA system",
+              "text": "The ALA system is optimized for the Aventador SVJ and is now known as ALA 2.0, which incorporates new air intake and aero channel designs."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "6,498 cm³",
+              "maxPower": "566 kW (770 CV) at 8,500 rpm",
+              "speed": "350 km/h",
+              "acceleration": "2.8 s",
+              "consuption": "18.0 l/100km (WLTP)",
+              "emission": "442 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g1.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g2.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g3.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g4.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/svj_roadster/2021/03_22/Gallery/aventador_svj_r_g5.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "model": "urus",
+      "link": "Urus",
+      "singleModel": [
+        {
+          "background": "https://i.cenyavto.com/2021/12/TyTk.jpg",
+          "subtitle": "urus",
+          "title": "ulock any road",
+          "powerCv": "650 CV",
+          "powerKw": "478 kW",
+          "maxSpeed": "305 ",
+          "fastest": "3.6s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/urus/urus/ar_urus_neve.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/over/urus_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The soul of a super sports car and the functionality of an SUV: Lamborghini Urus is the first Super Sport Utility Vehicle in the world. With extreme proportions, breathtaking design, extraordinary driving dynamics and heart-pounding performance, Urus represents freedom in its quintessential state. You can experience any road, from track to the sand, ice, gravel or rocks, thus unlocking any road. You can explore any new terrain, thus expressing yourself."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://crystalcr.com/image/catalog/Lamborghini1/0.jpg",
+              "title": "EXTERIOR",
+              "text": "Its design assumes multiple guises: sporty, elegant and off-road. Muscular surfaces lend a decisive appearance, while the massive tires and wheels impart the look of a luxury super sports car. Every surface places a focus on functionality. The signature style of Lamborghini is immediately recognizable, with details such as Y-shaped and hexagonal details, the front hood with center peak, and the crossed lines on the rear hood. Urus is the lowest SUV in its segment."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/s/urus_s3.jpg",
+              "img2": "https://media.ed.edmunds-media.com/lamborghini/urus/2022/oem/2022_lamborghini_urus_4dr-suv_base_fq_oem_1_1280.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://carsweek.ru/upload/resize_cache/iblock/db0/1200_900_1/db097e20d58d4a1299be6d1f84c735d8.jpg",
+              "title": "INTERIOR",
+              "text": "The luxury of Italian craftsmanship meets state-of-the-art technology. Aerospace-inspired design and driver-oriented instrumentation, featuring three TFT screens, make the driving experience more comfortable and engaging.The interior can be customized and made even more sporty or elegant, thanks to the wide range of colors and materials: leather, Alcantara, wood, aluminum or carbon-fiber finishes."
+            }
+          ],
+          "section6": [ 
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/connected_car/connected_urus.jpg",
+              "title": "THE FIRST CONNECTED LAMBORGHINI",
+              "text": "Thanks to state-of-the-art connectivity with exclusive navigation, comfort, safety and entertainment features, the driving experience with Urus reaches unparalleled levels both onboard and remotely."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "3,996 cm³ (243.85 cu in)",
+              "maxPower": "566 kW (770 CV) at 8,500 rpm",
+              "speed": "305 km/h",
+              "acceleration": "3.6 s",
+              "consuption": "18.0 l/100km (WLTP)",
+              "emission": "325 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/gallery/urus_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/gallery/urus_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/gallery/urus_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/gallery/urus_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/2022/07_11_restyle/gallery/urus_05.jpg"
+            }
+          ]
+        },
+        {
+          "background": "https://www.topgear.com/sites/default/files/2022/08/LAMBORGHINI_URUS_PERFORMANTE_01.jpg",
+          "subtitle": "urus performante",
+          "title": "for bar raisers only",
+          "powerCv": "666 CV",
+          "powerKw": "490 kW",
+          "maxSpeed": "305 ",
+          "fastest": "3.3s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/urus/urus/ar_urus_neve.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/over/urus_perfo_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "A visionary concept: Urus Performante is the sporty evolution of the first-ever Super Sport Utility Vehicle, one that defines a new segment as the absolute all-around super sports car. With its distinctive, sporting design, revolutionary use of lightweight components and improved aerodynamics, Urus Performante elevates driving fun and SUV performance to a whole new level. The most exclusive model in the Urus family raises the bar of high performance SUV for a new frontier of driving humans beyond"
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://avatars.mds.yandex.net/get-vertis-journal/4465444/2023-Lamborghini-Urus-Performante-4.jpg_1660997822377/orig",
+              "title": "EXTERIOR",
+              "text": "The design for the Urus Performante is Lamborghini’s fullest expression of the unyielding principle, “Form follows function.” The liberal use of lightweight carbon-fiber components allows for a significant weight reduction and is a principal characteristic of Urus Performante’s design: sporty, sleek and undeniably bold, with proportions that reflect those of a super sports car."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/s/urus_perfo_s_03.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/urus_perfo_og.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/s/urus_perfo_s_04_m.jpg",
+              "title": "INTERIOR",
+              "text": "The interior of Urus Performante is made for its driver, enhanced by the use of innovative and lightweight materials such as Alcantara and carbon fiber. With these, dark tones, contrast stitching and exclusive Performante logos add unique details to express the car’s sporting character. Refined, contemporary and ergonomically efficient, the interior of Urus Performante is designed to make the driver “feel like a pilot.”A wide range of options is available for personalization."
+            }
+          ],
+          "section6": [ 
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/urus/connected_car/connected_urus.jpg",
+              "title": "CONNECT WITH YOUR URUS PERFORMANTE",
+              "text": "The exclusive and advanced suite of connected technologies is ready to raise driving engagement to a level never experienced before. Lamborghini Connect gives Urus Performante drivers peace of mind when they are not at the wheel and provides always-up-to-date functions on board."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "3,996 cm³ (243.85 cu in)",
+              "maxPower": "566 kW (770 CV) at 8,500 rpm",
+              "speed": "305 km/h",
+              "acceleration": "3.6 s",
+              "consuption": "18.0 l/100km (WLTP)",
+              "emission": "325 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "id": 1,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/gallery/urus_perfo_01.jpg"
+            },
+            { 
+              "id": 2,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/gallery/urus_perfo_02.jpg"
+            } ,
+            {
+              "id": 3,
+               "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/gallery/urus_perfo_03.jpg"
+            },
+            {
+              "id": 4,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/gallery/urus_perfo_04.jpg"
+            },
+            {
+              "id": 5,
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/gateway_urus/performante/2022/gallery/urus_perfo_05.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "model": "limited series",
+      "link": "Limited",
+      "singleModel": [
+        {
+          "subtitle": "huracan tecnica",
+          "title": "take all your souls to drive",
+          "powerCv": "640 CV",
+          "powerKw": "470 KW",
+          "100": "3.2s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_tecnica/hura_tecnica_ar_01.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/over/hura_tecnica_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The latest member of the Huracán range provides the purest Lamborghini driving experience combined with the freedom of everyday use: a bridge between past and future, lifestyle and performance, road and track. Huracán Tecnica brings forth a pilot’s attitude in every driver, delivering the most rewarding performance and the ultimate, fun-to-drive experience — simultaneously. Unleash the unique character of the most versatile Huracán."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://images.pistonheads.com/nimg/45880/blobid1.jpg",
+              "title": "EXTERIOR",
+              "text": "Huracán Tecnica was designed as a bridge between worlds to combine performance and beauty. The lines emphasize distinctive new expressions inspired by the racing DNA of the Huracán Super Trofeo EVO2. The front and rear architectures were restructured with sharper lines to improve aerodynamics, bringing about stability and ease in every condition, especially on the track. The powerful lines shape a new, unforgettable portrait of the Huracán range."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://car-images.bauersecure.com/wp-images/155171/lamborghini_huracan_tecnica_review_06.jpg",
+              "img2": "https://www.topgear.com/sites/default/files/2022/06/4-Lamborghini-Huracan-Tecnica.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/s/hura_tecnica_s_04_m.jpg",
+              "title": "INTERIOR",
+              "text": "Made for the driver. The versatility that distinguishes Huracán Tecnica is also a main feature of its interior, with extensive personalization options geared toward providing the most fulfilling driving experience. Exclusive interior finishes made of top-quality materials reflect Lamborghini’s Italian design heritage and include a new dedicated trim for the sports seats. Technology also plays a large role in the experience, with dedicated HMI graphics and enhanced connectivity exclusive to Huracán Tecnica.A vast range of Ad Personam combinations is available to further enhance exclusivity."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/connected_car/hura_tecnica_connect_01.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN TECNICA",
+              "text": "With the new connected services, the experience on board your Huracán EVO RWD becomes even more enjoyable, remotely as well using the Lamborghini UNICA app. Exclusive comfort, navigation, safety and entertainment features will let you manage your Lamborghini better than ever before."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm³ (317.57 cu in)",
+              "max-power": "610 CV (449 kW) @ 8,000 rpm",
+              "speed": "325 km/h",
+              "acceleration": "3.3 s",
+              "consuption": "14,6 l/100km (WLTP)",
+              "emission": "330 g/km (WLTP) "
+            }
+          ],
+          "modelImages": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_01.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_02.jpg" ,
+              "img3": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_03.jpg",
+              "img4": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_04.jpg",
+              "img5": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/gallery/hura_tecnica_05.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "model": "concepts",
+      "link": "Concepts",
+      "singleModel": [
+        {
+          "subtitle": "huracan tecnica",
+          "title": "take all your souls to drive",
+          "powerCv": "640 CV",
+          "powerKw": "470 KW",
+          "100": "3.2s",
+          "section1": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/huracan/huracan_tecnica/hura_tecnica_ar_01.png",
+              "title": "AUGMENTED REALITY",
+              "text": "Frame the QR code with your smartphone and turn on the Lamborghini Augmented Reality experience."
+            }
+          ],
+          "section2": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/over/hura_tecnica_over_01.jpg",
+              "title": "OVERVIEW",
+              "text": "The latest member of the Huracán range provides the purest Lamborghini driving experience combined with the freedom of everyday use: a bridge between past and future, lifestyle and performance, road and track. Huracán Tecnica brings forth a pilot’s attitude in every driver, delivering the most rewarding performance and the ultimate, fun-to-drive experience — simultaneously. Unleash the unique character of the most versatile Huracán."
+            }
+          ],
+          "section3": [
+            {
+              "img": "https://images.pistonheads.com/nimg/45880/blobid1.jpg",
+              "title": "EXTERIOR",
+              "text": "Huracán Tecnica was designed as a bridge between worlds to combine performance and beauty. The lines emphasize distinctive new expressions inspired by the racing DNA of the Huracán Super Trofeo EVO2. The front and rear architectures were restructured with sharper lines to improve aerodynamics, bringing about stability and ease in every condition, especially on the track. The powerful lines shape a new, unforgettable portrait of the Huracán range."
+            }
+          ],
+          "section4": [
+            {
+              "img1": "https://car-images.bauersecure.com/wp-images/155171/lamborghini_huracan_tecnica_review_06.jpg",
+              "img2": "https://www.topgear.com/sites/default/files/2022/06/4-Lamborghini-Huracan-Tecnica.jpg"
+            }
+          ],
+          "section5": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/2022/10_06/s/hura_tecnica_s_04_m.jpg",
+              "title": "INTERIOR",
+              "text": "Made for the driver. The versatility that distinguishes Huracán Tecnica is also a main feature of its interior, with extensive personalization options geared toward providing the most fulfilling driving experience. Exclusive interior finishes made of top-quality materials reflect Lamborghini’s Italian design heritage and include a new dedicated trim for the sports seats. Technology also plays a large role in the experience, with dedicated HMI graphics and enhanced connectivity exclusive to Huracán Tecnica.A vast range of Ad Personam combinations is available to further enhance exclusivity."
+            }
+          ],
+          "section6": [
+            {
+              "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/tecnica/connected_car/hura_tecnica_connect_01.jpg",
+              "title": "CONNECT WITH YOUR HURACÁN TECNICA",
+              "text": "The exclusive and advanced suite of connected technologies is ready to raise driving engagement to a level never experienced before. Lamborghini Connect gives Huracán Tecnica drivers peace of mind when they are not at the wheel and provides always-up-to-date functions on board."
+            }
+          ],
+          "section7": [
+            {
+              "displacement": "5,204 cm3",
+              "max-power": "470/640 kW/CV at 8000 rpm",
+              "speed": "325 km/h",
+              "acceleration": "3.2 s",
+              "consuption": "14,5 l/100km (WLTP)",
+              "emission": "328 g/km (WLTP)"
+            }
+          ],
+          "modelImages": [
+            {
+              "img1": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_02.jpg",
+              "img2": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_03.jpg" ,
+              "img3": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_04.jpg",
+              "img4": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_05.jpg",
+              "img5": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/huracan/evo_rwd/2022/10_06/gallery/hura_evo_rwd_01.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "text": "opening of lamborghini lounge doha",
+      "date": "22 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_22_doha/cover__.jpg"
+    },
+    {
+      "id": 2,
+      "text": "eve: brave but not unbreakable",
+      "date": "22 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_22_eve/eve_cover.jpg"
+    },
+    {
+      "id": 3,
+      "text": "the engine songs: the 'voice' of yhe v10",
+      "date": "21 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_21_v10/cover_desk.jpg"
+    },
+    {
+      "id": 5,
+      "text": "lamborghini and bologna football club for november",
+      "date": "17 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_18_nespolo/nespolo_cover_d.jpg"
+    },
+    {
+      "id": 6,
+      "text": "the engine songs: v12 and luca natali stradivari",
+      "date": "17 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_17_bfc/cover_desk.jpg"
+    },
+    {
+      "id": 7,
+      "text": "maximillion cooper: brave but not unbreakable",
+      "date": "16 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_17_stradivari/cover_d.jpg"
+    },
+    {
+      "id": 8,
+      "text": "last aventador lp 780-4 ultimae coupe and 1: 1 nft delivered",
+      "date": "22 NOVEMBER 2022",
+      "img": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2022/11_16_movember/COVER_DESK.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

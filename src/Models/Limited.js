@@ -1,34 +1,25 @@
 import { useDispatch } from "react-redux"
 import { setNavIsShown } from "../redux/slices/navSlice"
 
-import { useRef, useState } from "react"
-import rightArrow from '../img/arrow-right.png'
-import leftArrow from '../img/arrow-left.png'
-import { useHref } from "react-router-dom"
+import { useEffect, useRef, useState } from "react"
+import { MdArrowForwardIos, MdArrowBackIos} from 'react-icons/md'
+import { useNavigate } from 'react-router-dom'
+import instance from '.././api/axios'
+import { setSingleModel } from "../redux/slices/singleNewSlice"
 
 const Limited = () => {
     const [img, setImg] = useState(1)
     const [modelsId, setModelId] = useState(1)
     const [justId, setJustId] = useState(1)
+    const [model, setModel] = useState([])
 
     const dispatch = useDispatch()
+
+    const navigate = useNavigate()
 
     const mouseOver = () => {
         dispatch(setNavIsShown(false))
     }
-
-    const modelsCarousel = [
-        {
-            id: 1,
-            src: "https://www.pngmart.com/files/10/Lamborghini-Urus-PNG-Transparent-Image.png",
-            title: 'urus'
-        },
-        {
-            id: 2,
-            src: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/09_26_graphite_lancio/family_chooser1_m.png",
-            title: 'urus performante'
-        },
-    ]
 
     const carousel = [
         {
@@ -58,22 +49,6 @@ const Limited = () => {
           setImg(img - 1);
         }
       };
-
-      const rightHuracan = () => {
-        if (modelsId == modelsCarousel.length) {
-            setModelId(1);
-          } else {
-            setModelId(modelsId + 1);
-          }
-      }
-
-      const leftHuracan = () => {
-        if (modelsId == 1) {
-            setModelId(modelsCarousel.length - 1);
-          } else {
-            setModelId(modelsId - 1);
-          }
-      }
 
       const justImages = [
         {
@@ -105,10 +80,109 @@ const Limited = () => {
             setJustId(justId + 1);
         }
       }
+
+
+      useEffect(() => {
+        instance.get('limited')
+            .then(res => setModel(res.data))
+            .catch(err => console.log(err))
+      }, [])
+
+      const sian37 = () => {
+        model.map((singleModel) => {
+            console.log(singleModel)
+            if(singleModel.subtitle == 'sian fkp 37'){
+                const {background, subtitle, title, powerCv, powerKw, fastest, maxSpeed, section1, section2, section3, section4, section5, section6, section7, modelImages} = singleModel
+                const mdelInfo = {
+                    background,
+                    subtitle, 
+                    title, 
+                    powerCv, 
+                    powerKw, 
+                    fastest,
+                    maxSpeed, 
+                    section1, 
+                    section2, 
+                    section3, 
+                    section4, 
+                    section5, 
+                    section6, 
+                    section7, 
+                    modelImages
+                }
+                //console.log('modelTitle',aaa)
+                 dispatch(setSingleModel(mdelInfo))
+                 navigate('/LimitedModel')
+            }
+        })
+      }
+
+      const countach = () => {
+        model.map((singleModel) => {
+            if(singleModel.subtitle == 'countach lpi 800-4'){
+                
+                const {background, subtitle, title, powerCv, powerKw, fastest, maxSpeed, section1, section2, section3, section4, section5, section6, section7, modelImages} = singleModel
+                const mdelInfo = {
+                    background,
+                    subtitle, 
+                    title, 
+                    powerCv, 
+                    powerKw, 
+                    fastest,
+                    maxSpeed, 
+                    section1, 
+                    section2, 
+                    section3, 
+                    section4, 
+                    section5, 
+                    section6, 
+                    section7, 
+                    modelImages
+                }
+                
+                 dispatch(setSingleModel(mdelInfo))
+                 navigate('/LimitedModel')
+            }
+        })
+      }
+
+      const sianRoadster = () => {
+        model.map((singleModel) => {
+            if(singleModel.subtitle == 'sian roadster'){
+                const {background, subtitle, title, powerCv, powerKw, fastest, maxSpeed, section1, section2, section3, section4, section5, section6, section7, modelImages} = singleModel
+                const mdelInfo = {
+                    background,
+                    subtitle, 
+                    title, 
+                    powerCv, 
+                    powerKw, 
+                    fastest,
+                    maxSpeed, 
+                    section1, 
+                    section2, 
+                    section3, 
+                    section4, 
+                    section5, 
+                    section6, 
+                    section7, 
+                    modelImages
+                }
+                 dispatch(setSingleModel(mdelInfo))
+                 navigate('/LimitedModel')
+            }
+        })
+      }
+
+    const startRef = useRef(null)
+
+    useEffect(() => {
+        startRef.current?.scrollIntoView({behavior: 'smooth'});
+    }, [])
+
     return (
-        <div>
+        <div ref={startRef}>
             {
-                carousel.map(({id, src, title, text}) => (
+                carousel.map(({id, src}) => (
                     <div style={id == img ? {backgroundImage: `url(${src})`, backgroundRepeat: 'no-repeat', height: '100vh', backgroundSize: 'cover'}: {display: 'none'}} className='huracan-wrapper' onMouseOver={mouseOver}>
                         <div className="huracan">
                             <div className="huracan-title">
@@ -119,10 +193,10 @@ const Limited = () => {
                             </div >
                             <div className="arrows">
                                 <div className="arrow-left-div arrow-div" onClick={left}>
-                                    <img className="arrow-left arrow" src={leftArrow}/>
+                                    <MdArrowBackIos className="arrow-left arrow" />
                                 </div>
                                 <div onClick={right} className="arrow-right-div arrow-div">
-                                    <img className="arrow-right arrow" src={rightArrow}/>
+                                    <MdArrowForwardIos className="arrow-right arrow" />
                                 </div>
                             </div>
                         </div>
@@ -138,6 +212,11 @@ const Limited = () => {
                         The Sián FKP 37, whose name means “lightning” in Bolognese dialect, is the first super sports car powered by a V12 with hybrid technology based on a supercapacitor. A real masterpiece of engineering and technology with an extraordinary design, both functional and futuristic, that elicits excitement right from the first glance.
                         Produced in just 63 units, the first few-off hybrid car boasts the lowest power-to-weight ratio of any other Lamborghini with a V12 engine, and its top speed exceeds 350 km/h.
                         With the first application of supercapacitors in the world in the hybrid segment, the Sián FKP 37 looks to the future without forgoing the emotions of a Lamborghini, and also paves the way for a new technology of autonomous actuation in the automotive world
+                    </div>
+                    <div className="fin-services-content5-btns">
+                        <div onClick={sian37} className="fin-services-content5-usa country">
+                            sian FKP 37
+                        </div>
                     </div>
                 </div>
                 <div className="about-huracan-img">
@@ -157,6 +236,11 @@ const Limited = () => {
                         This technological gem combines the most powerful V12 engine ever with a new power pack, thus introducing an innovative hybrid system that offers the maximum power to the more limited weight.
                         The aerodynamic efficiency of the Sián Roadster is optimized by the pure design, which reinterprets the forms in the open-top cabin, creating an unmistakable futuristic profile.
                     </div>
+                    <div className="fin-services-content5-btns">
+                        <div onClick={sianRoadster} className="fin-services-content5-usa country">
+                            sian roadster
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="about-huracan">
@@ -166,6 +250,11 @@ const Limited = () => {
                     </div>
                     <div className="about-huracan-text">
                         The automotive world was forever changed when Lamborghini first unveiled the Countach at the Geneva Motor Show in 1971. The audacious design of the Countach was a pure expression of Lamborghini DNA, breaking the mold and inspiring everything to follow. This Lamborghini masterpiece is as fresh today as it was 50 years ago — and now, Lamborghini pays tribute to the style icon by launching a commemorative edition. With only 112 units to be manufactured, the new Countach LPI 800-4 asserts a visual continuity between the past and the present, while reaching into the future thanks to Lamborghini’s state-of-the-art technology and uncompromising style.
+                    </div>
+                    <div className="fin-services-content5-btns">
+                        <div onClick={countach} className="fin-services-content5-usa country">
+                            countach lpi 800-4
+                        </div>
                     </div>
                 </div>
                 <div className="about-huracan-img">
@@ -180,10 +269,10 @@ const Limited = () => {
                     <div style={id == justId ? {backgroundImage: `url(${src})`} : {display: 'none'}} className="just-images">
                         <div className="just-arrows">
                             <div className="just-arrow-left">
-                                <img onClick={justLeft} className="arrow just-arrow" src={leftArrow}/>
+                                <MdArrowBackIos onClick={justLeft} className="arrow just-arrow" />
                             </div>
                             <div className="just-arrow-right">
-                                <img onClick={justRight} className="arrow just-arrow" src={rightArrow}/>
+                                <MdArrowForwardIos onClick={justRight} className="arrow just-arrow" />
                             </div>
                         </div>
                     </div>

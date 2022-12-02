@@ -1,14 +1,19 @@
 import { useDispatch } from "react-redux"
 import { setNavIsShown } from "../redux/slices/navSlice"
 
-import { useState } from "react"
-import rightArrow from '../img/arrow-right.png'
-import leftArrow from '../img/arrow-left.png'
+import { useEffect, useRef, useState } from "react"
+import { MdArrowForwardIos, MdArrowBackIos} from 'react-icons/md'
+
+import instance from "../api/axios"
+import { setSingleModel } from "../redux/slices/singleNewSlice"
+import { useNavigate } from "react-router-dom"
 
 const Huracan = () => {
     const [img, setImg] = useState(1)
     const [modelsId, setModelId] = useState(1)
     const [justId, setJustId] = useState(1)
+
+    const [models, setModels] = useState([])
 
     const dispatch = useDispatch()
 
@@ -25,12 +30,12 @@ const Huracan = () => {
         {
             id: 2,
             src: "https://cdn.pixabay.com/photo/2021/08/31/19/37/lamborghini-aventador-6589974_960_720.png",
-            title: 'Aventador SVJ'
+            title: 'aventador svj'
         },
         {
             id: 3,
             src: "https://media-server3.modenamotorsgmbh.com/19444-medium_default/lamborghini-aventador-svj.jpg",
-            title: 'Aventador SVJ roadster'
+            title: 'aventador svj roadster'
         },
     ]
 
@@ -119,8 +124,56 @@ const Huracan = () => {
         }
       }
 
+      const navigate = useNavigate()
+
+      useEffect(() => {
+        instance.get('models')
+            .then(res => setModels(res.data))
+            .catch(err => console.log(err))
+      }, [])
+
+      const getModel = (modelTitle) => {
+        models.map(({id, model, link, singleModel}) => {
+            
+            if(model == modelTitle.split(' ')[0]){
+                
+                singleModel.map(({background, subtitle, title, powerCv, powerKw, fastest, maxSpeed, section1, section2, section3, section4, section5, section6, section7, modelImages}) => {
+
+                    if(subtitle == modelTitle){
+                        const mdelInfo = {
+                            background,
+                            subtitle, 
+                            title, 
+                            powerCv, 
+                            powerKw, 
+                            fastest,
+                            maxSpeed, 
+                            section1, 
+                            section2, 
+                            section3, 
+                            section4, 
+                            section5, 
+                            section6, 
+                            section7, 
+                            modelImages
+                        }
+                         dispatch(setSingleModel(mdelInfo))
+                         navigate('/SingleModel')
+                    } 
+                })
+                    
+            }
+        })
+    }
+
+    const startRef = useRef(null)
+
+    useEffect(() => {
+        startRef.current?.scrollIntoView({behavior: 'smooth'});
+    }, [])
+
     return (
-        <div>
+        <div ref={startRef}>
             {
                 carousel.map(({id, src, title, text}) => (
                     <div style={id == img ? {backgroundImage: `url(${src})`, backgroundRepeat: 'no-repeat', height: '100vh', backgroundSize: 'cover'}: {display: 'none'}} className='huracan-wrapper' onMouseOver={mouseOver}>
@@ -133,42 +186,54 @@ const Huracan = () => {
                             </div >
                             <div className="arrows">
                                 <div className="arrow-left-div arrow-div" onClick={left}>
-                                    <img className="arrow-left arrow" src={leftArrow}/>
+                                    <MdArrowBackIos className="arrow-left arrow" />
                                 </div>
                                 <div onClick={right} className="arrow-right-div arrow-div">
-                                    <img className="arrow-right arrow" src={rightArrow}/>
+                                    <MdArrowForwardIos className="arrow-right arrow" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 ))
             }
-            <div className="about-huracan">
-                <div className="about-huracan-texts">
+
+
+
+            <div className="fin-services-content3">
+                <div className="asasas">
                     <div className="about-huracan-title">
                         <img  src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/aventador_logo.png"/>
                     </div>
-                    <div className="about-huracan-text">
+                    <div className="fin-services-content3-text">
                         DESIGNED TO PUSH BEYOND PERFORMANCE
                         Revolutionary thinking is at the heart of every idea from Automobili Lamborghini. Whether it is aerospace-inspired design or technologies applied to the naturally aspirated V12 engine or carbon-fiber structure, going beyond accepted limits is part of our philosophy. The Aventador advances every concept of performance, immediately establishing itself as the benchmark for the super sports car sector. Giving a glimpse of the future today, it comes from a family of supercars already considered legendary.
                     </div>
                 </div>
-                <div className="about-huracan-img">
-                    <img className="about-img" src="https://images2.alphacoders.com/108/1080051.jpg"/>
+                <div className="a">
+                    <img style={{width: '700px', height: '400px'}} src="https://images2.alphacoders.com/108/1080051.jpg" className="fin-services-content3-img"/>
                 </div>
             </div>
-            <div className="about-huracan">
-                <div className="about-huracan-img">
-                    <img className="about-img" src="https://wallpaperaccess.com/full/4115802.jpg"/>
+            <div className="fin-services-content4">
+                <div className="fin-services-content4-img1-div">
+                    <img src="https://cdn.carbuzz.com/gallery-images/2021-lamborghini-aventador-svj-roadster-dashboard-carbuzz-556919-1600.jpg" className="fin-services-content4-img1"/>
                 </div>
-                <div className="about-huracan-texts">
-                    <div className="about-huracan-title">
-                        DESIGN  
+                <div className="fin-services-content4-img2-div">
+                    <img src="https://www.insidehook.com/wp-content/uploads/2022/11/lamborghini-aventador-ultimae-driving.jpg?fit=1200%2C800" className="fin-services-content4-img2"/>
+                </div>
+            </div>
+            <div style={{display: 'flex', justifyContent: 'start'}} className="fin-services-content5">
+                <div className="fin-services-content5-img-div">
+                    <img src="https://cdn.motor1.com/images/mgl/G4x21/s1/lamborghini-aventador-lp-780-4-ultimae.webp" className="fin-services-content5-img"/>
+                </div>
+                <div className="fin-services-content5-texts">
+                    <div className="fin-services-content5-title">
+                        DESIGN
                     </div>
-                    <div className="about-huracan-text">
+                    <div className="fin-services-content5-text">
                         Each and every detail of the Aventador bears the hallmarks of the House of the Raging Bull. It is a true masterpiece of design that expresses dynamism and power, with the carbon-fiber monocoque the jewel in its crown. The interior combines high-level technology and luxury equipment, crafted by skilled artisans using 
                     </div>
                 </div>
+                
             </div>
 
 
@@ -180,18 +245,18 @@ const Huracan = () => {
                     CHOOSE YOUR AVENTADOR
                 </div>
                 <div className="choose-arrows">
-                    <div className="choose-arrow-left-div arrow-div" onClick={leftHuracan}>
-                        <img className="choose-arrow-left arrow" src={leftArrow}/>
+                    <div className="arrow-left-div arrow-div" onClick={leftHuracan}>
+                        <MdArrowBackIos className="arrow-left arrow arrow" />
                     </div>
-                    <div onClick={rightHuracan} className="choose-arrow-right-div arrow-div">
-                        <img className="choose-arrow-right arrow" src={rightArrow}/>
+                    <div onClick={rightHuracan} className="arrow-right-div arrow-div">
+                        <MdArrowForwardIos className="arrow-right arrow arrow" />
                     </div>
                 </div>
                 {
                     modelsCarousel.map(({id, src, title}) => (
                         modelsId == id ? <div key={id}>
                             <div className="choose-content">
-                                <div className="choose-name">
+                                <div style={{cursor: 'pointer'}} onClick={() => getModel(title)} className="choose-name">
                                     {title}
                                 </div>    
                             </div>
@@ -207,10 +272,10 @@ const Huracan = () => {
                     <div style={id == justId ? {backgroundImage: `url(${src})`} : {display: 'none'}} className="just-images">
                         <div className="just-arrows">
                             <div className="just-arrow-left">
-                                <img onClick={justLeft} className="arrow just-arrow" src={leftArrow}/>
+                                <MdArrowBackIos onClick={justLeft} className="arrow just-arrow" />
                             </div>
                             <div className="just-arrow-right">
-                                <img onClick={justRight} className="arrow just-arrow" src={rightArrow}/>
+                                <MdArrowForwardIos onClick={justRight} className="arrow just-arrow" />
                             </div>
                         </div>
                     </div>

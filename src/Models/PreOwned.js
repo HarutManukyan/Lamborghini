@@ -1,111 +1,23 @@
 import { useDispatch } from "react-redux"
 import { setNavIsShown } from "../redux/slices/navSlice"
 
-import { useState } from "react"
-import rightArrow from '../img/arrow-right.png'
-import leftArrow from '../img/arrow-left.png'
+import { useEffect, useRef, useState } from "react"
 
 const PreOwned = () => {
-    const [img, setImg] = useState(1)
-    const [modelsId, setModelId] = useState(1)
-    const [justId, setJustId] = useState(1)
-
     const dispatch = useDispatch()
 
     const mouseOver = () => {
         dispatch(setNavIsShown(false))
     }
 
-    const modelsCarousel = [
-        {
-            id: 1,
-            src: "https://www.pngmart.com/files/10/Lamborghini-Urus-PNG-Transparent-Image.png",
-            title: 'urus'
-        },
-        {
-            id: 2,
-            src: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/09_26_graphite_lancio/family_chooser1_m.png",
-            title: 'urus performante'
-        },
-    ]
+    const startRef = useRef(null)
 
-    const carousel = [
-        {
-          id: 1,
-          src: "https://www.hdcarwallpapers.com/walls/lamborghini_huracan_tecnica_2022_5k_9-HD.jpg",
-          title: 'Model'
-        }
-      ];
-
-      const right = () => {
-        if (img == carousel.length) {
-          setImg(1);
-        } else {
-          setImg(img + 1);
-        }
-      };
-
-      const left = () => {
-        if (img == 1) {
-          setImg(carousel.length - 1);
-        } else {
-          setImg(img - 1);
-        }
-      };
-
-      const rightHuracan = () => {
-        if (modelsId == modelsCarousel.length) {
-            setModelId(1);
-          } else {
-            setModelId(modelsId + 1);
-          }
-      }
-
-      const leftHuracan = () => {
-        if (modelsId == 1) {
-            setModelId(modelsCarousel.length - 1);
-          } else {
-            setModelId(modelsId - 1);
-          }
-      }
-
-      const justImages = [
-        {
-            id: 1,
-            src: "https://wallpaperaccess.com/full/3992635.jpg"
-        },
-        {
-            id: 2,
-            src: "https://i.pinimg.com/originals/f4/56/c1/f456c149f6e66280bebd75b9247c2924.jpg"
-        },
-        {
-            id: 3,
-            src: "https://www.hdcarwallpapers.com/walls/lamborghini_aventador_lp_780_4_ultimae_2022_4k-HD.jpg"
-        },
-        {
-            id: 4,
-            src: "https://images7.alphacoders.com/115/1158908.jpg"
-        },
-      ]
-
-      const justLeft = () => {
-        if (justId == 1) {
-            setJustId(justImages.length - 1);
-        } else {
-            setJustId(justId - 1);
-        }
-      }
-
-      const justRight = () => {
-        if (justId == justImages.length) {
-            setJustId(1);
-        } else {
-            setJustId(justId + 1);
-        }
-      }
+    useEffect(() => {
+        startRef.current?.scrollIntoView({behavior: 'smooth'});
+    }, [])
 
     return (
-        <div>
+        <div ref={startRef}>
             {
                 
                     <div 

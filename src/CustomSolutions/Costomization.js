@@ -1,14 +1,13 @@
 import { useDispatch } from "react-redux"
 import { setNavIsShown } from "../redux/slices/navSlice"
 
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import rightArrow from '../img/arrow-right.png'
 import leftArrow from '../img/arrow-left.png'
 import { useHref } from "react-router-dom"
 
 const Costomization = () => {
     const [img, setImg] = useState(1)
-    const [modelsId, setModelId] = useState(1)
     const [justId, setJustId] = useState(1)
 
     const dispatch = useDispatch()
@@ -16,19 +15,6 @@ const Costomization = () => {
     const mouseOver = () => {
         dispatch(setNavIsShown(false))
     }
-
-    const modelsCarousel = [
-        {
-            id: 1,
-            src: "https://www.pngmart.com/files/10/Lamborghini-Urus-PNG-Transparent-Image.png",
-            title: 'urus'
-        },
-        {
-            id: 2,
-            src: "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/urus/09_26_graphite_lancio/family_chooser1_m.png",
-            title: 'urus performante'
-        },
-    ]
 
     const carousel = [
         {
@@ -66,50 +52,41 @@ const Costomization = () => {
         }
       };
 
-        const left = () => {
-            if (img == 1) {
+    const left = () => {
+        if (img == 1) {
             setImg(carousel.length - 1);
-            } else {
+        } else {
             setImg(img - 1);
-            }
-        };
-
-        const rightHuracan = () => {
-            if (modelsId == modelsCarousel.length) {
-                setModelId(1);
-            } else {
-                setModelId(modelsId + 1);
-            }
         }
+    };
 
-        const leftHuracan = () => {
-            if (modelsId == 1) {
-                setModelId(modelsCarousel.length - 1);
-            } else {
-                setModelId(modelsId - 1);
-            }
-        }
-
-      const justLeft = () => {
+    const justLeft = () => {
         if (justId == 1) {
             setJustId(justImages.length - 1);
         } else {
             setJustId(justId - 1);
         }
-      }
+    }
 
-      const justRight = () => {
+    const justRight = () => {
         if (justId == justImages.length) {
             setJustId(1);
         } else {
             setJustId(justId + 1);
         }
-      }
+    }
+
+    const startRef = useRef(null)
+
+    useEffect(() => {
+        startRef.current?.scrollIntoView({behavior: 'smooth'});
+    }, [])
+
     return (
         <div>
             {
                 carousel.map(({id, src, title, text}) => (
-                    <div style={id == img ? {backgroundImage: `url(${src})`, backgroundRepeat: 'no-repeat', height: '100vh', backgroundSize: 'cover'}: {display: 'none'}} className='huracan-wrapper' onMouseOver={mouseOver}>
+                    <div ref={startRef} style={id == img ? {backgroundImage: `url(${src})`, backgroundRepeat: 'no-repeat', height: '100vh', backgroundSize: 'cover'}: {display: 'none'}} className='huracan-wrapper' onMouseOver={mouseOver}>
                         <div className="huracan">
                             <div className="huracan-title">
                                 lamborghini

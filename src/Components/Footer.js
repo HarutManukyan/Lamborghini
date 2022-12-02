@@ -5,7 +5,6 @@ import twitter from '../img/twitter.png'
 import tiktok from '../img/tiktok.png'
 import linkedin from '../img/linkedin.png'
 
-
 const Footer = () => {
     const links = [
         {
@@ -112,10 +111,10 @@ const Footer = () => {
                     }
                 </div>
                 <div className='footer-texts'>
-                    <div className='footer-text1'>
+                    <div style={{color: 'whitesmoke'}} className='footer-text1'>
                         The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, <br /> contact your dealer to get valid consumption and emissions information in your area.
                     </div>
-                    <div className='footer-text2'>
+                    <div style={{color: 'whitesmoke'}} className='footer-text2'>
                         Copyright © 2022 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
                         All rights reserved. VAT no. IT 00591801204
                     </div>

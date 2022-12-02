@@ -68,8 +68,8 @@ const Nav = ({id, to, text}) => {
     const ownershipNav = [
         {
             id: 1,
-            to: 'Conectivity',
-            text: 'Conectivity'
+            to: 'Connect',
+            text: 'Connectivity'
         },
         {
             id: 2,
@@ -90,12 +90,7 @@ const Nav = ({id, to, text}) => {
             id: 5,
             to: 'Service',
             text: 'Service'
-        },
-        {
-            id: 6,
-            to: 'Recall',
-            text: 'Recall campaign'
-        },
+        }
     ]
 
     const mouseOver = () => {

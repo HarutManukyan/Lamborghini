@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 *{
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-
+  /* color: rgb(31, 30, 30); */
+}
+body {
+  overflow-x: hidden; /* Hide scrollbars */
 }
 /* header */
 
@@ -32,20 +36,24 @@
   display: flex;
 }
 .extra-info{
-  height: 300px;
   background-color: rgb(31, 30, 30);
-  position: relative;
+  position: absolute;
+  width: 100vw;
   z-index: 1;
   transition: 0.5s all;
   color: whitesmoke;
   animation-name: extra;
-  animation-duration: 0.5s;
-  animation-direction: alternate;
-
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 @keyframes extra {
-  0%   {height: 0;}
-  100% {height: 300px;}
+  0%  {height: 0;}
+  10%   {height: 6vh;}
+  20%  {height: 12vh;}
+  40%   {height: 18vh;}
+  60%   {height: 24vh;}
+  80%   {height: 30vh;}
+  100% {height: 36vh;}
 }
 .extra-info-link-div{
   display: block;
@@ -65,6 +73,153 @@
   text-transform: capitalize;
 }
 
+
+/* Search */
+
+.search-wrapper{
+  background-color: rgb(31, 30, 30);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 5;
+  animation: search 0.5s ;
+}
+.search-area{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+@keyframes search {
+  from {opacity: 0; margin-bottom: 100%;}
+  to {opacity: 1; margin-bottom: 0;}
+}
+.close-search{
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.close-search span{
+  margin-left: 15px;
+}
+.search-title{
+  font-size: 35px;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.search-text{
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 100px;
+  margin: 50px 0;
+  font-weight: 700;
+}
+.search-input-div{
+  display: flex;
+}
+.search-input{
+  width: 800px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  color: whitesmoke;
+  font-size: 18px;
+}
+.search-input:focus {
+  outline: transparent  ;
+  border-bottom: gray 2px solid;
+}
+.search-btn{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+/* Menu */
+
+.menu{
+  background-color: rgb(31, 30, 30);
+  width: 99.1vw;
+  position: absolute;
+  z-index: 5;
+  animation: menu 0.3s forwards;
+  animation-timing-function: linear;
+}
+@keyframes menu {
+  0% { height: 0;}
+  20% {height: 12vh;}
+  40% {height: 24vh;}
+  60% {height: 36vh;}
+  80% {height: 48vh;}
+  100% { height: 60vh;}
+}
+.menu-container{
+  width: 70%;
+  margin: 0 auto;
+  opacity: 0;
+  position: relative;
+  left: 100%;
+  animation: menu-container 0.3s 0.5s forwards;
+}
+@keyframes menu-container {
+  from {opacity: 0; left: 100%;}
+  to {opacity: 1; left: 0;}
+}
+.menu-content{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  padding-bottom: 100px;
+  border-bottom: 1px gray solid;
+}
+.menu-item{
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.language-text{
+  color: whitesmoke;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.languages{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+}
+.languages-content{
+  position: relative;
+}
+.languages-title{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  position: absolute;
+  top:  20%;
+}
+.menu-bottom{
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.socials{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 25px;
+}
+
 /* HomePage */
 
 .home-page{
@@ -74,7 +229,7 @@
   width: 99vw;
 }
 .back-img{
-  width: 99.1vw;
+  width: 100vw;
   height: 100vh;
 }
 .homepage-content{
@@ -115,6 +270,24 @@
   background-size: cover;
   height: 100vh;
   width: 99vw;
+  
+}
+.models-wrapper{
+  /* position: relative; */
+}
+.models-models{
+  /* position: absolute; */
+  /* height: 100vh;
+  width: 99.1vw; */
+  /* background-color: rgb(31, 30, 30); */
+  /* top: 0; */
+  margin-left: 100%;
+  animation: models 0.5s forwards;
+  animation-direction: alternate;
+}
+@keyframes models {
+  from {margin-left: 100%;}
+  to { margin-left: 0;}
 }
 .models-title{
   color: whitesmoke;
@@ -162,6 +335,59 @@
   transform:translateY(-3px);
   color: rgb(0, 174, 255);
 }
+.models-list{
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-bottom: transparent 2px solid;
+  transition: 0.3s all linear;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.models-list:hover{
+  border-bottom: whitesmoke 2px solid;
+}
+.country{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  border-bottom: white 2px solid;
+  transition: 0.3s all linear;
+  cursor: pointer;
+  display: block;
+}
+.country:hover{
+  border-bottom: black 2px solid;
+}
+.models-container{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.models-back-btn{
+  border: whitesmoke 2px solid;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+  transition: 0.3s all;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.models-back-btn:hover{
+  background-color: whitesmoke;
+  color: rgb(31, 30, 30);
+}
+
 
 /* Configurator */
 
@@ -296,7 +522,7 @@
   font-size: 20px;
 }
 .news-event-div{
-  margin: 30px 0;
+  margin: 50px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -343,6 +569,7 @@
 .news-card-info{
   font-size: 35px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .news-card-btn{
   text-transform: uppercase;
@@ -377,12 +604,16 @@
   background-color: whitesmoke;
   color: rgb(31, 30, 30);
 }
+.news-content{
+  width: 1500px;
+  margin: 0 auto;
+}
 
 /* Footer */
 
 .footer-wrapper{
   background-color: rgb(31, 30, 30);
-  height: 40vh;
+
 }
 .footer{
   max-width: 1500px;
@@ -430,7 +661,7 @@
 }
 .huracan-wrapper{
   height: '100vh';
-  width: '99.1vw';
+  width: '100vw';
   background-repeat: 'no-repeat';
   background-size: 'cover';
   animation: wrapper 0.5s forwards;
@@ -491,10 +722,12 @@
   width: 20px;
   height: 30px;
   margin: 0 3px;
+  cursor: pointer;
 }
 .arrow-div{
   border: 1px solid whitesmoke;
   background-color: whitesmoke;
+  color: rgb(31, 30, 30);
   padding: 10px 16px 10px 14px;
   border-radius: 50%;
   margin: 0 5px;
@@ -502,8 +735,9 @@
   cursor: pointer;
 }
 .arrow-div:hover{
-  background-color: #a39f9f;
-  border: 1px solid #a39f9f;
+  background-color: rgb(31, 30, 30);
+  border: 1px solid rgb(31, 30, 30);
+  color: whitesmoke;
 }
 .about-huracan{
   max-width: 1500px;
@@ -668,4 +902,1254 @@
   width: 70%;
   margin-top: 25px;
   color: gray;
+}
+
+.single-accesories-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.single-accesories-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accesories-content-title{
+  font-size: 25px;
+  color: rgb(31, 30, 30);
+  font-weight: 600;
+}
+.accesories-content-title span{
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+.single-accesories-img{
+  height: 100%;
+  width: 800px;
+  object-fit: cover;
+  animation: accessories-img 0.5s forwards;
+}
+@keyframes accessories-img {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.brochure-text, .explore-text{
+  color: rgb(31, 30, 30);
+  margin-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(31, 30, 30);
+}
+.brochure-btn-div, .explore-btn-div{
+  display: flex;
+  margin: 0 15px;
+  align-items: center;
+}
+.single-accesories-btns{
+  display: flex;
+}
+.explore-btn, .brochure-btn{
+  /* padding: 30px 34px; */
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(31, 30, 30);
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: 30px;
+  transition: 0.3s all ;
+  cursor: pointer;
+}
+.explore-btn:hover, .brochure-btn:hover{
+  background-color: rgb(31, 30, 30);
+  color: whitesmoke;
+}
+.single-accesories-choose{
+  display: flex;
+  text-transform: uppercase;
+  color: rgb(31, 30, 30);
+  margin-top: 25px;
+}
+.accessories-choose{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+/* Featured */
+
+.featured{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.featured-title{
+  font-size: 35px;
+  color: rgb(31, 30, 30);
+}
+.featured-title span{
+  font-size: 55px;
+  font-weight: 700;
+}
+.featured-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  margin-top: 50px;
+}
+.featured-card-img{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.featured-card-subtitle{
+  opacity: 0.8;
+  text-transform: uppercase;
+  margin: 15px 0;
+  font-size: 14px;
+}
+.featured-card-title{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+.featured-card-text{
+  width: 80%;
+  line-height: 1.8;
+}
+.featured-card-link-div{
+  margin-top: 15px;
+}
+
+/* scroll */
+
+.scroll{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: 2px solid rgb(31, 30, 30);
+  background-color: transparent;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.scroll:hover{
+  background-color: rgb(31, 30, 30);
+}
+
+
+/* Fin Services */
+
+.fin-services{
+  background-image: url(https://images.hdqwalls.com/wallpapers/lamborghini-countach-lpi-2021-0h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 10vw;
+}
+.fin-services-header{
+  margin-left: 15%;
+  padding-top: 15%;
+}
+.fin-services-header-subtitle{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.fin-services-header-title{
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.fin-services-header-btn{
+  border: rgb(31, 30, 30) solid 2px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: rgb(31, 30, 30);
+}
+.fin-services-header-btn:hover{
+  background-color: rgb(31, 30, 30);
+  border: 2px solid rgb(31, 30, 30);
+  color: whitesmoke;
+}
+.fin-services-content{
+  padding: 100px 0;
+}
+.fin-services-content2{
+  display: flex;
+}
+.fin-services-content2-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  object-fit: cover;
+}
+.fin-services-content2-text{
+  width: 500px;
+  margin: auto;
+  line-height: 2;
+  opacity: 0.7;
+}
+.fin-services-content2-text div {
+  opacity: 1;
+}
+.fin-services-content1{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.fin-services-content1-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+.fin-services-content1-text{
+  margin-top: 70px;
+  line-height: 2;
+  opacity: 0.7;
+}
+.asasas{
+  width: 500px;
+  margin: 0 auto;
+}
+.fin-services-content1-logo{
+  margin-top: 50px;
+}
+.fin-services-content3{
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+}
+.fin-services-content3-title{
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.fin-services-content3-text{
+  margin-top: 20px;
+  line-height: 2;
+  opacity: 0.7;
+}
+.fin-services-content3-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+}
+.fin-services-content4{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.fin-services-content4-img1, .fin-services-content4-img2{
+  width: 1200px;
+  height: 550px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  object-fit: cover;
+}
+.fin-services-content5-title{
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-top: 20%; */
+  text-transform: uppercase;
+}
+.fin-services-content5-type{
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+}
+.fin-services-content5{
+  margin-top: 100px;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.fin-services-content5-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  object-fit: cover;
+}
+.fin-services-content5-text{
+  width: 500px;
+  line-height: 2;
+  opacity: 0.7;
+}
+.country{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  border-bottom: white 2px solid;
+  transition: 0.3s all linear;
+  cursor: pointer;
+}
+.country:hover{
+  border-bottom: black 2px solid;
+}
+.after-sales{
+  margin-top: 100px;
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2021/07_06_ultimae/ultimae_cover.jpg);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -100px;
+  background-position: center;
+}
+.after-sales-content{
+  padding-top: 15%;
+  margin-left: 15%;
+}
+.after-sales-subtitle, .after-sales-title{
+  color: whitesmoke;
+}
+.after-sales-subtitle{
+  font-size: 25px;
+}
+.after-sales-title{
+  font-size: 50px;
+  font-weight: 700;
+}
+.after-sales-btn{
+  border: whitesmoke solid 2px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: whitesmoke;
+  margin-top: 30px;
+}
+.after-sales-btn:hover{
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: rgb(31, 30, 30);
+}
+.warr{
+  background-image: url(https://blogautomobile.fr/wp-content/uploads/2019/01/Huracan-EVO-05.jpg);
+  height: 100vh;
+}
+
+
+/* Connectivity */
+
+.conn-content{
+  padding-top: 15%;
+  margin-left: 15%;
+}
+.conn-title{
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: whitesmoke;
+  animation: connTitle;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  
+}
+@keyframes connTitle {
+  from {opacity: 0; margin-left: 200px;}
+  to {opacity: 1; margin-left: 0;}
+}
+.conn-arrows{
+  display: flex;
+  justify-content: start;
+  margin: 30px 0;
+  margin-right: 200px;
+  animation-name: arrows;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.conn-sub{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  animation: connSub;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes connSub {
+  from {opacity: 0; margin-left: 200px;}
+  to {opacity: 1; margin-left: 0;}
+}
+.conn-btn{
+  border: whitesmoke solid 2px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: whitesmoke;
+}
+.conn-btn:hover{
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: rgb(31, 30, 30);
+}
+.conn-last-img{
+  width: 1300px;
+  height: 700px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+}
+
+/* App */
+
+.fin-services-content{
+  margin-top: -100px;
+}
+.cost-app{
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2020/09_23_unica/unica_cover1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 99.1vw;
+}
+.cost-app-title{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+.cost-app-img{
+  width: 1300px;
+  height: 700px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+}
+.cost-app-content{
+  margin-left: 100px;
+}
+.about-app-btns{
+  display: flex;
+  margin-top: 50px;
+}
+.arrow-div{
+  width: 20px;
+  display: flex;
+  justify-content: center;
+}
+.about-app-img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.about-app-img-div{
+  width: 50%;
+  animation: about-img 0.5s forwards;
+  opacity: 0;
+}
+@keyframes about-img {
+  from {opacity: 0; }
+  to {opacity: 1;}
+}
+.about-app-card{
+  display: flex;
+}
+.about-app-texts{
+  width: 50%;
+  background-color: #e9e6e6;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.about-app-title{
+  font-size: 30px;
+  font-weight: 700;
+}
+.about-app-text{
+  margin-top: 50px;
+  opacity: 0.8;
+  line-height: 2;
+  width: 80%;
+}
+.app-exp{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.app-exp-left{
+  margin-left: 20%;
+}
+.app-exp-right{
+  margin-left: -10%;
+}
+.app-exp-left-img{
+  -webkit-clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+  clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+  width: 1000px;
+  height: 550px;
+}
+.app-exp-left-title{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px 0;
+  margin-left: 10%;
+}
+.app-exp-left-text{
+  width: 500px;
+  margin: 2px 0;
+  line-height: 2;
+  opacity: 0.7;
+  margin-left: 10%;
+}
+.app-exp-left-btn-div{
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  padding: 10px 16px 10px 14px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: 0.3s all;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+.app-exp-left-btn-div:hover{
+  background-color: #a39f9f;
+  border: 1px solid #a39f9f; 
+}
+.app-exp-left-btns{
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+.app-exp-right-img{
+  -webkit-clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+  clip-path: polygon(40% 0, 100% 0%, 60% 100%, 0% 100%);
+  width: 1300px;
+  height: 700px;
+}
+
+
+/* Mobprog */
+
+.mobprog{
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/after_sales/mobility_program/mobility_program_og.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+.mobprog-refs{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.ref-text{
+  width: 50%;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+.mobprog-ref{
+  display: flex;
+}
+
+
+/* Classics */
+
+.classics-span{
+  color: black;
+  font-weight: 700;
+}
+.classics-events{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.classics-events-title{
+  font-size: 30px;
+  font-weight: 700;
+}
+.classics-events-text{
+  margin-top: 30px;
+  opacity: 0.7;
+  line-height: 2;
+}
+
+/* Service */
+
+.service{
+  background-image: url(https://images.hdqwalls.com/wallpapers/lamborghini-huracan-sto-photoshoot-5k-jr.jpg);
+  height: 100vh;
+  width: 99.1vw;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.color{
+  color: whitesmoke;
+}
+.srvice-btn{
+  border: whitesmoke solid 2px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: whitesmoke;
+}
+.srvice-btn:hover{
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: rgb(31, 30, 30);
+}
+.service-content-text{
+  width: 80%;
+}
+.brochure-plus{
+  color: whitesmoke;
+}
+.brochure-plus:hover{
+  color: rgb(31, 30, 30);
+}
+
+
+/* Museum */
+
+.museum-span{
+  color: black;
+  opacity: 2;
+  font-size: 20px;
+}
+
+/* Store */
+
+.store-comp{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.store-comp-texts{
+  background-color: rgb(233, 229, 229);
+  width: 150%;
+  padding-left: 5%;
+}
+.store-comp-text{
+  opacity: 0.7;
+  margin-top: 10%;
+  line-height: 1.8; 
+}
+
+
+/* Design */
+
+.design-wrapper{
+  background-image: url(https://wallpaperaccess.com/full/156866.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.design-bottom{
+  margin-top: 100px;
+}
+.design-bottom-img{
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/design/gallery/slide1.jpg);
+  height: 100vh;
+  width: 99.1vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
+
+
+/* Innovation */
+
+.innovation-images{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.innov-img{
+  -webkit-clip-path: polygon(35% 0, 100% 0%, 65% 100%, 0% 100%);
+  clip-path: polygon(35% 0, 100% 0%, 65% 100%, 0% 100%);
+  width: 1000px;
+  height: 550px;
+  margin: 100px 0;
+}
+.innov-image2-div{
+  position: absolute;
+  right: 8%;
+  top: 10%;
+}
+.innov-image1-div{
+  position: relative;
+  left: 5%;
+}
+
+/* Lounge */
+
+.lounge-wrapper{
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/lounge/lounge_og.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+.lounge-text-container{
+  width: 35%;
+  position: absolute;
+}
+.lounge-container{
+  margin-left: 15%;
+}
+.aa{
+  -webkit-clip-path: polygon(35% 0, 100% 0%, 65% 100%, 0% 100%);
+  clip-path: polygon(35% 0, 100% 0%, 65% 100%, 0% 100%);
+  width: 1000px;
+  height: 550px;
+  object-fit: cover;
+}
+.lounge-img1-div{
+  position: relative;
+  left: 40%;
+  top: 100px;
+}
+.lounge-text{
+  width: 80%;
+  margin: 100px auto;
+  opacity: 0.7;
+  line-height: 2;
+}
+.language-text, span{
+  opacity: 1;
+  font-weight: 700;
+}
+.lounge-bottom-img{
+  height: 100vh;
+  width: 99.1vw;
+}
+
+
+/* News page */
+
+.news-page{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.news-page-subtitle{
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(31, 30, 30);
+  margin: 25px 0;
+}
+.news-page-title{
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(31, 30, 30);
+  margin: 25px 0;
+}
+
+.telegram{
+  padding: 80px 50px;
+  background-color: rgb(236, 234, 234);
+  cursor: pointer;
+}
+.telegram-container{
+  display: flex;
+  align-items: center;
+}
+.telegram-logo{
+  border: 2px solid rgb(31, 30, 30);
+  padding: 15px 17px;
+  border-radius: 50%;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.telegram-img{
+  height: 50px;
+  width: 50px;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.telegram:hover .telegram-img{
+  color: whitesmoke;
+}
+.telegram:hover .telegram-logo{
+  background-color: rgb(31, 30, 30);
+}
+.telegram-texts{
+  margin-left: 50px;
+}
+.telegram-subtitle{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(31, 30, 30);
+  text-transform: uppercase;
+}
+.telegram-title{
+  font-size: 30px;
+  color: rgb(31, 30, 30);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.single-new{
+  width: 80%;
+  margin: 100px auto;
+}
+.single-new-card-img{
+  width: 100%;
+}
+.single-new-card-date{
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.single-new-title{
+  font-size: 80px;
+}
+.back-btn{
+  text-transform: uppercase;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px rgb(31, 30, 30) solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.back-btn:hover{
+  background-color: rgb(31, 30, 30);
+  color: whitesmoke;
+}
+
+/* Single model */
+
+.single-model{
+  background-image: url(https://images.hdqwalls.com/wallpapers/lamborghini-countach-lpi-2021-0h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: whitesmoke;
+  position: relative;
+}
+.single-model-header{
+  margin-left: 15%;
+  padding-top: 15%;
+}
+.single-model-header-subtitle{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.single-model-header-title{
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.single-model-header-btn{
+  border: whitesmoke solid 2px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: whitesmoke;
+}
+.single-model-header-btn:hover{
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: rgb(31, 30, 30);
+}
+.single-model-content{
+  padding: 100px 0;
+}
+.single-model-content2{
+  display: flex;
+}
+.fin-services-content2-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  object-fit: cover;
+}
+.fin-services-content2-text{
+  width: 500px;
+  margin: auto;
+  line-height: 2;
+  opacity: 0.7;
+}
+.fin-services-content2-text div {
+  opacity: 1;
+}
+.single-model-content1{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+.single-model-content1-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+}
+.single-model-content1-text{
+  margin-top: 70px;
+  line-height: 2;
+  opacity: 0.7;
+}
+.asasas{
+  width: 500px;
+  margin: 0 auto;
+}
+.single-model-content1-logo{
+  margin-top: 50px;
+}
+.fin-services-content3{
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+}
+.fin-services-content3-title{
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.fin-services-content3-text{
+  margin-top: 20px;
+  line-height: 2;
+  opacity: 0.7;
+}
+/* .fin-services-content3-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 100%);
+  object-fit: cover;
+} */
+.single-model-content4{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.single-model-content4-img1, .single-model-content4-img2{
+  width: 1200px;
+  height: 550px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  object-fit: cover;
+}
+.single-model-content5-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30%;
+}
+.single-model-content5{
+  margin-top: 100px;
+  display: flex;
+}
+.single-model-content5-img{
+  width: 1000px;
+  height: 550px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+  object-fit: cover;
+}
+.single-model-content5-text{
+  width: 500px;
+  margin: 2px 0;
+  line-height: 2;
+  opacity: 0.7;
+}
+
+.stats{
+  width: 50%;
+  margin: 100px auto;
+}
+.stats-title{
+  font-size: 30px;
+  color: rgb(31, 30, 30);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.stat-info{
+  border-bottom: 1px solid rgb(56, 56, 56);
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.single-model-stats{
+  display: flex;
+  color: whitesmoke;
+  margin-left: 15%;
+  position: absolute;
+  bottom: 5%;
+  text-transform: uppercase;
+}
+.header-stat{
+  margin-left: 20px;
+}
+
+
+/* Sian */
+
+.sian-dynamic{
+  width: 70%;
+  margin: 0 auto;
+}
+.sian-dynamic-title{
+  color: rgb(31, 30, 30);
+  font-weight: 700;
+  font-size: 30px;
+}
+.sian-dynamic-text{
+  line-height: 2;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.sian-dynamic-content{
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sian-dynamic-content-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  line-height: 2;
+  padding: 50px;
+  padding-right: 50px;
+}
+
+
+/* Terzo */
+
+.terzo-info{
+  background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/terzo-elemento/gallery/gallery_8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  margin-top: 100px;
+}
+.terzo-content{
+  width: 80%;
+  margin: 0 auto;
+}
+.terzo-subtitle{
+  color: whitesmoke;
+  font-size: 35px;
+  font-weight: bold;
+}
+.terzo-text{
+  font-size: 70px;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-top: 20px;;
+}
+
+.count-img{
+  width: 80%;
+}
+.benefits{
+  width: 80%;
+  margin: 50px auto;
+}
+.benefits-title{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.benefits-content{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.benefits-content-text{
+  opacity: 0.8;
+  margin: 40px 0;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  padding-bottom: 10px;
+}
+.benefits-close{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.benefits-close-btn{
+  font-size: 30px;
+  border: 2px solid rgb(31, 30, 30);
+  padding: 8px;
+  border-radius: 50%;
+  color: rgb(31, 30, 30);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.benefits-close-btn:hover{
+  background-color: rgb(31, 30, 30);
+  color: whitesmoke;
+}
+.disclaimer-container{
+  width: 80%;
+  margin: 50px auto;
+  opacity: 0.8;
+}
+.disclaimer{
+  margin-bottom: 20px;
+}
+
+
+/* SingleAccessori */
+
+.sing-accessori-carousel{
+  height: '70vh';
+  width: '99.1vw';
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  animation: wrapper 0.5s forwards;
+  position: relative;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.single-accessori-brochure{
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.single-accessori-brochure-btn{
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid rgb(31, 30, 30);
+  color: rgb(31, 30, 30);
+  border-radius: 25px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.single-accessori-brochure-btn:hover{
+  background-color: rgb(31, 30, 30);
+  color: whitesmoke;
+}
+
+
+/* Europe countries */
+
+.all-europe-countries{
+  background-color: black;
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+.all-countries-europe{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px 50px;
+  background-color: black;
+  border-radius: 4px;
+}
+.europe-btn{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-top: 20px;
+  border-bottom: black 2px solid;
+  transition: 0.3s all linear;
+  cursor: pointer;
+  width: 80%;
+  margin-bottom: 40px;
+}
+.europe-btn:hover{
+  border-bottom: whitesmoke 2px solid;
+}
+.all-countries-close{
+  color: whitesmoke;
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.all-countries-close:hover{
+  background-color: white;
+  color: black;
 }
