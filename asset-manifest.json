@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Lamborghini/static/css/main.c4baeca9.css",
+    "main.js": "/Lamborghini/static/js/main.257afa68.js",
+    "static/js/787.a526e8cd.chunk.js": "/Lamborghini/static/js/787.a526e8cd.chunk.js",
+    "static/media/tecnica.jpg": "/Lamborghini/static/media/tecnica.c343725c1b4666674804.jpg",
+    "static/media/sian.jpg": "/Lamborghini/static/media/sian.bb2db8d47aa957665eb9.jpg",
+    "static/media/history.jpg": "/Lamborghini/static/media/history.0453a328392fbda94882.jpg",
+    "static/media/news-img.webp": "/Lamborghini/static/media/news-img.44a0aeed997545ca86b7.webp",
+    "static/media/news1.webp": "/Lamborghini/static/media/news1.f588d9a1ce260a3398be.webp",
+    "static/media/tecnica-png.webp": "/Lamborghini/static/media/tecnica-png.a4a139a0fbc240f1b5ca.webp",
+    "static/media/news2.webp": "/Lamborghini/static/media/news2.ac3b215aec6c6abb08a7.webp",
+    "static/media/arrow-right.png": "/Lamborghini/static/media/arrow-right.61786f3955ec172341cd.png",
+    "static/media/arrow-left.png": "/Lamborghini/static/media/arrow-left.b588049b2473ad3e7cb2.png",
+    "static/media/twitter.png": "/Lamborghini/static/media/twitter.9557c55ae9ab6643ce80.png",
+    "static/media/insta.png": "/Lamborghini/static/media/insta.e24748d82fc8c4ae3f65.png",
+    "index.html": "/Lamborghini/index.html",
+    "main.c4baeca9.css.map": "/Lamborghini/static/css/main.c4baeca9.css.map",
+    "main.257afa68.js.map": "/Lamborghini/static/js/main.257afa68.js.map",
+    "787.a526e8cd.chunk.js.map": "/Lamborghini/static/js/787.a526e8cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4baeca9.css",
+    "static/js/main.257afa68.js"
+  ]
+}
